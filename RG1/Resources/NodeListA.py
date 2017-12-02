@@ -2,3290 +2,3400 @@ def node0(split1):
     output = ""
     encryptinput = split1
 
-    if encryptinput == "T":
+    if encryptinput == "A":
         output = "|"
 
-    if encryptinput == "U":
+    if encryptinput == "B":
         output = " "
 
-    if encryptinput == "V":
+    if encryptinput == "C":
         output = "?"
 
-    if encryptinput == "W":
+    if encryptinput == "D":
         output = ">"
 
-    if encryptinput == "X":
+    if encryptinput == "E":
         output = "<"
 
-    if encryptinput == "Y":
+    if encryptinput == "F":
         output = "/"
 
-    if encryptinput == "Z":
+    if encryptinput == "G":
         output = "."
 
-    if encryptinput == "¬":
+    if encryptinput == "H":
         output = ","
 
-    if encryptinput == "`":
+    if encryptinput == "I":
         output = "~"
 
-    if encryptinput == "¦":
+    if encryptinput == "J":
         output = "@"
 
-    if encryptinput == "!":
+    if encryptinput == "K":
         output = ":"
 
-    if encryptinput == '"':
+    if encryptinput == "L":
         output = "#"
 
-    if encryptinput == "£":
+    if encryptinput == "M":
         output = "'"
 
-    if encryptinput == "$":
+    if encryptinput == "N":
         output = ";"
 
-    if encryptinput == "%":
+    if encryptinput == "O":
         output = "}"
 
-    if encryptinput == "^":
+    if encryptinput == "P":
         output = "{"
 
-    if encryptinput == "&":
+    if encryptinput == "Q":
         output = "]"
 
-    if encryptinput == "*":
+    if encryptinput == "R":
         output = "["
 
-    if encryptinput == "(":
+    if encryptinput == "S":
         output = "+"
 
-    if encryptinput == ")":
+    if encryptinput == "®":
         output = "_"
 
-    if encryptinput == "-":
+    if encryptinput == "™":
         output = "="
 
-    if encryptinput == "=":
+    if encryptinput == "©":
         output = "-"
 
-    if encryptinput == "_":
+    if encryptinput == "T":
         output = ")"
 
-    if encryptinput == "+":
+    if encryptinput == "U":
         output = "("
 
-    if encryptinput == "[":
+    if encryptinput == "V":
         output = "*"
 
-    if encryptinput == "]":
+    if encryptinput == "W":
         output = "&"
 
-    if encryptinput == "{":
+    if encryptinput == "X":
         output = "^"
 
-    if encryptinput == "}":
+    if encryptinput == "Y":
         output = "%"
 
-    if encryptinput == ";":
+    if encryptinput == "Z":
         output = "$"
 
-    if encryptinput == "'":
+    if encryptinput == "¬":
         output = "£"
 
-    if encryptinput == "#":
-        output = '"'
+    if encryptinput == "`":
+        output = "'"
 
-    if encryptinput == ":":
+    if encryptinput == "¦":
         output = "!"
 
-    if encryptinput == "@":
+    if encryptinput == "!":
         output = "¦"
 
-    if encryptinput == "~":
+    if encryptinput == "'":
         output = "`"
 
-    if encryptinput == ",":
+    if encryptinput == "£":
         output = "¬"
 
-    if encryptinput == ".":
+    if encryptinput == "$":
         output = "Z"
 
-    if encryptinput == "/":
+    if encryptinput == "%":
         output = "Y"
 
-    if encryptinput == "<":
+    if encryptinput == "^":
         output = "X"
 
-    if encryptinput == ">":
+    if encryptinput == "&":
         output = "W"
 
-    if encryptinput == "?":
+    if encryptinput == "*":
         output = "V"
 
-    if encryptinput == " ":
+    if encryptinput == "(":
         output = "U"
 
-    if encryptinput == "|":
+    if encryptinput == ")":
         output = "T"
 
-    if encryptinput == "a":
+    if encryptinput == "-":
         output = "©"
 
-    if encryptinput == "b":
+    if encryptinput == "=":
         output = "™"
 
-    if encryptinput == "c":
+    if encryptinput == "_":
         output = "®"
 
-    if encryptinput == "d":
+    if encryptinput == "+":
         output = "S"
 
-    if encryptinput == "e":
+    if encryptinput == "[":
         output = "R"
 
-    if encryptinput == "f":
+    if encryptinput == "]":
         output = "Q"
 
-    if encryptinput == "g":
+    if encryptinput == "{":
         output = "P"
 
-    if encryptinput == "h":
+    if encryptinput == "}":
         output = "O"
 
-    if encryptinput == "i":
+    if encryptinput == ";":
         output = "N"
 
-    if encryptinput == "j":
+    if encryptinput == "'":
         output = "M"
 
-    if encryptinput == "k":
+    if encryptinput == "#":
         output = "L"
 
-    if encryptinput == "l":
+    if encryptinput == ":":
         output = "K"
 
-    if encryptinput == "m":
+    if encryptinput == "@":
         output = "J"
 
-    if encryptinput == "n":
+    if encryptinput == "~":
         output = "I"
 
-    if encryptinput == "o":
+    if encryptinput == ",":
         output = "H"
 
-    if encryptinput == "p":
+    if encryptinput == ".":
         output = "G"
 
-    if encryptinput == "q":
+    if encryptinput == "/":
         output = "F"
 
-    if encryptinput == "r":
+    if encryptinput == "<":
         output = "E"
 
-    if encryptinput == "s":
+    if encryptinput == ">":
         output = "D"
 
-    if encryptinput == "t":
+    if encryptinput == "?":
         output = "C"
 
-    if encryptinput == "u":
+    if encryptinput == " ":
         output = "B"
 
-    if encryptinput == "v":
+    if encryptinput == "|":
         output = "A"
 
-    if encryptinput == "w":
+    if encryptinput == "a":
         output = "9"
 
-    if encryptinput == "x":
+    if encryptinput == "b":
         output = "8"
 
-    if encryptinput == "y":
+    if encryptinput == "c":
         output = "7"
 
-    if encryptinput == "z":
+    if encryptinput == "d":
         output = "6"
 
-    if encryptinput == "0":
+    if encryptinput == "e":
         output = "5"
 
-    if encryptinput == "1":
+    if encryptinput == "f":
         output = "4"
 
-    if encryptinput == "2":
+    if encryptinput == "g":
         output = "3"
 
-    if encryptinput == "3":
+    if encryptinput == "h":
         output = "2"
 
-    if encryptinput == "4":
+    if encryptinput == "i":
         output = "1"
 
-    if encryptinput == "5":
+    if encryptinput == "j":
         output = "0"
 
-    if encryptinput == "6":
+    if encryptinput == "k":
         output = "z"
 
-    if encryptinput == "7":
+    if encryptinput == "l":
         output = "y"
 
-    if encryptinput == "8":
+    if encryptinput == "m":
         output = "x"
 
-    if encryptinput == "9":
+    if encryptinput == "n":
         output = "w"
 
-    if encryptinput == "A":
+    if encryptinput == "o":
         output = "v"
 
-    if encryptinput == "B":
+    if encryptinput == "p":
         output = "u"
 
-    if encryptinput == "C":
+    if encryptinput == "q":
         output = "t"
 
-    if encryptinput == "D":
+    if encryptinput == "r":
         output = "s"
 
-    if encryptinput == "E":
+    if encryptinput == "s":
         output = "r"
 
-    if encryptinput == "F":
+    if encryptinput == "t":
         output = "q"
 
-    if encryptinput == "G":
+    if encryptinput == "u":
         output = "p"
 
-    if encryptinput == "H":
+    if encryptinput == "v":
         output = "o"
 
-    if encryptinput == "I":
+    if encryptinput == "w":
         output = "n"
 
-    if encryptinput == "J":
+    if encryptinput == "x":
         output = "m"
 
-    if encryptinput == "K":
+    if encryptinput == "y":
         output = "l"
 
-    if encryptinput == "L":
+    if encryptinput == "z":
         output = "k"
 
-    if encryptinput == "M":
+    if encryptinput == "0":
         output = "j"
 
-    if encryptinput == "N":
+    if encryptinput == "1":
         output = "i"
 
-    if encryptinput == "O":
+    if encryptinput == "2":
         output = "h"
 
-    if encryptinput == "P":
+    if encryptinput == "3":
         output = "g"
 
-    if encryptinput == "Q":
+    if encryptinput == "4":
         output = "f"
 
-    if encryptinput == "R":
+    if encryptinput == "5":
         output = "e"
 
-    if encryptinput == "S":
+    if encryptinput == "6":
         output = "d"
+
+    if encryptinput == "7":
+        output = "c"
+
+    if encryptinput == "8":
+        output = "b"
+
+    if encryptinput == "9":
+        output = "a"
 
     filey = open("Resources/tempfile.txt","a")
     filey.write(str(output))
     filey.close()
+
 
 def node1(split1):
     output = ""
     encryptinput = split1
 
-    if encryptinput == "©":
+    if encryptinput == "B":
         output = "|"
 
-    if encryptinput == "T":
+    if encryptinput == "C":
         output = " "
 
-    if encryptinput == "U":
+    if encryptinput == "D":
         output = "?"
 
-    if encryptinput == "V":
+    if encryptinput == "E":
         output = ">"
 
-    if encryptinput == "W":
+    if encryptinput == "F":
         output = "<"
 
-    if encryptinput == "X":
+    if encryptinput == "G":
         output = "/"
 
-    if encryptinput == "Y":
+    if encryptinput == "H":
         output = "."
 
-    if encryptinput == "Z":
+    if encryptinput == "I":
         output = ","
 
-    if encryptinput == "¬":
+    if encryptinput == "J":
         output = "~"
 
-    if encryptinput == "`":
+    if encryptinput == "K":
         output = "@"
 
-    if encryptinput == "¦":
+    if encryptinput == "L":
         output = ":"
 
-    if encryptinput == "!":
+    if encryptinput == "M":
         output = "#"
 
-    if encryptinput == '"':
+    if encryptinput == "N":
         output = "'"
 
-    if encryptinput == "£":
+    if encryptinput == "O":
         output = ";"
 
-    if encryptinput == "$":
+    if encryptinput == "P":
         output = "}"
 
-    if encryptinput == "%":
+    if encryptinput == "Q":
         output = "{"
 
-    if encryptinput == "^":
+    if encryptinput == "R":
         output = "]"
 
-    if encryptinput == "&":
+    if encryptinput == "S":
         output = "["
 
-    if encryptinput == "*":
+    if encryptinput == "®":
         output = "+"
 
-    if encryptinput == "(":
+    if encryptinput == "™":
         output = "_"
 
-    if encryptinput == ")":
+    if encryptinput == "©":
         output = "="
 
-    if encryptinput == "-":
+    if encryptinput == "T":
         output = "-"
 
-    if encryptinput == "=":
+    if encryptinput == "U":
         output = ")"
 
-    if encryptinput == "_":
+    if encryptinput == "V":
         output = "("
 
-    if encryptinput == "+":
+    if encryptinput == "W":
         output = "*"
 
-    if encryptinput == "[":
+    if encryptinput == "X":
         output = "&"
 
-    if encryptinput == "]":
+    if encryptinput == "Y":
         output = "^"
 
-    if encryptinput == "{":
+    if encryptinput == "Z":
         output = "%"
 
-    if encryptinput == "}":
+    if encryptinput == "¬":
         output = "$"
 
-    if encryptinput == ";":
+    if encryptinput == "`":
         output = "£"
 
-    if encryptinput == "'":
-        output = '"'
+    if encryptinput == "¦":
+        output = "'"
 
-    if encryptinput == "#":
+    if encryptinput == "!":
         output = "!"
 
-    if encryptinput == ":":
+    if encryptinput == "'":
         output = "¦"
 
-    if encryptinput == "@":
+    if encryptinput == "£":
         output = "`"
 
-    if encryptinput == "~":
+    if encryptinput == "$":
         output = "¬"
 
-    if encryptinput == ",":
+    if encryptinput == "%":
         output = "Z"
 
-    if encryptinput == ".":
+    if encryptinput == "^":
         output = "Y"
 
-    if encryptinput == "/":
+    if encryptinput == "&":
         output = "X"
 
-    if encryptinput == "<":
+    if encryptinput == "*":
         output = "W"
 
-    if encryptinput == ">":
+    if encryptinput == "(":
         output = "V"
 
-    if encryptinput == "?":
+    if encryptinput == ")":
         output = "U"
 
-    if encryptinput == " ":
+    if encryptinput == "-":
         output = "T"
 
-    if encryptinput == "|":
+    if encryptinput == "=":
         output = "©"
 
-    if encryptinput == "a":
+    if encryptinput == "_":
         output = "™"
 
-    if encryptinput == "b":
+    if encryptinput == "+":
         output = "®"
 
-    if encryptinput == "c":
+    if encryptinput == "[":
         output = "S"
 
-    if encryptinput == "d":
+    if encryptinput == "]":
         output = "R"
 
-    if encryptinput == "e":
+    if encryptinput == "{":
         output = "Q"
 
-    if encryptinput == "f":
+    if encryptinput == "}":
         output = "P"
 
-    if encryptinput == "g":
+    if encryptinput == ";":
         output = "O"
 
-    if encryptinput == "h":
+    if encryptinput == "'":
         output = "N"
 
-    if encryptinput == "i":
+    if encryptinput == "#":
         output = "M"
 
-    if encryptinput == "j":
+    if encryptinput == ":":
         output = "L"
 
-    if encryptinput == "k":
+    if encryptinput == "@":
         output = "K"
 
-    if encryptinput == "l":
+    if encryptinput == "~":
         output = "J"
 
-    if encryptinput == "m":
+    if encryptinput == ",":
         output = "I"
 
-    if encryptinput == "n":
+    if encryptinput == ".":
         output = "H"
 
-    if encryptinput == "o":
+    if encryptinput == "/":
         output = "G"
 
-    if encryptinput == "p":
+    if encryptinput == "<":
         output = "F"
 
-    if encryptinput == "q":
+    if encryptinput == ">":
         output = "E"
 
-    if encryptinput == "r":
+    if encryptinput == "?":
         output = "D"
 
-    if encryptinput == "s":
+    if encryptinput == " ":
         output = "C"
 
-    if encryptinput == "t":
+    if encryptinput == "|":
         output = "B"
 
-    if encryptinput == "u":
+    if encryptinput == "a":
         output = "A"
 
-    if encryptinput == "v":
+    if encryptinput == "b":
         output = "9"
 
-    if encryptinput == "w":
+    if encryptinput == "c":
         output = "8"
 
-    if encryptinput == "x":
+    if encryptinput == "d":
         output = "7"
 
-    if encryptinput == "y":
+    if encryptinput == "e":
         output = "6"
 
-    if encryptinput == "z":
+    if encryptinput == "f":
         output = "5"
 
-    if encryptinput == "0":
+    if encryptinput == "g":
         output = "4"
 
-    if encryptinput == "1":
+    if encryptinput == "h":
         output = "3"
 
-    if encryptinput == "2":
+    if encryptinput == "i":
         output = "2"
 
-    if encryptinput == "3":
+    if encryptinput == "j":
         output = "1"
 
-    if encryptinput == "4":
+    if encryptinput == "k":
         output = "0"
 
-    if encryptinput == "5":
+    if encryptinput == "l":
         output = "z"
 
-    if encryptinput == "6":
+    if encryptinput == "m":
         output = "y"
 
-    if encryptinput == "7":
+    if encryptinput == "n":
         output = "x"
 
-    if encryptinput == "8":
+    if encryptinput == "o":
         output = "w"
 
-    if encryptinput == "9":
+    if encryptinput == "p":
         output = "v"
 
-    if encryptinput == "A":
+    if encryptinput == "q":
         output = "u"
 
-    if encryptinput == "B":
+    if encryptinput == "r":
         output = "t"
 
-    if encryptinput == "C":
+    if encryptinput == "s":
         output = "s"
 
-    if encryptinput == "D":
+    if encryptinput == "t":
         output = "r"
 
-    if encryptinput == "E":
+    if encryptinput == "u":
         output = "q"
 
-    if encryptinput == "F":
+    if encryptinput == "v":
         output = "p"
 
-    if encryptinput == "G":
+    if encryptinput == "w":
         output = "o"
 
-    if encryptinput == "H":
+    if encryptinput == "x":
         output = "n"
 
-    if encryptinput == "I":
+    if encryptinput == "y":
         output = "m"
 
-    if encryptinput == "J":
+    if encryptinput == "z":
         output = "l"
 
-    if encryptinput == "K":
+    if encryptinput == "0":
         output = "k"
 
-    if encryptinput == "L":
+    if encryptinput == "1":
         output = "j"
 
-    if encryptinput == "M":
+    if encryptinput == "2":
         output = "i"
 
-    if encryptinput == "N":
+    if encryptinput == "3":
         output = "h"
 
-    if encryptinput == "O":
+    if encryptinput == "4":
         output = "g"
 
-    if encryptinput == "P":
+    if encryptinput == "5":
         output = "f"
 
-    if encryptinput == "Q":
+    if encryptinput == "6":
         output = "e"
 
-    if encryptinput == "R":
+    if encryptinput == "7":
         output = "d"
+
+    if encryptinput == "8":
+        output = "c"
+
+    if encryptinput == "9":
+        output = "b"
+
+    if encryptinput == "A":
+        output = "a"
 
     filey = open("Resources/tempfile.txt","a")
     filey.write(str(output))
     filey.close()
+
 
 def node2(split1):
     output = ""
     encryptinput = split1
 
-    if encryptinput == "™":
+    if encryptinput == "C":
         output = "|"
 
-    if encryptinput == "©":
+    if encryptinput == "D":
         output = " "
 
-    if encryptinput == "T":
+    if encryptinput == "E":
         output = "?"
 
-    if encryptinput == "U":
+    if encryptinput == "F":
         output = ">"
 
-    if encryptinput == "V":
+    if encryptinput == "G":
         output = "<"
 
-    if encryptinput == "W":
+    if encryptinput == "H":
         output = "/"
 
-    if encryptinput == "X":
+    if encryptinput == "I":
         output = "."
 
-    if encryptinput == "Y":
+    if encryptinput == "J":
         output = ","
 
-    if encryptinput == "Z":
+    if encryptinput == "K":
         output = "~"
 
-    if encryptinput == "¬":
+    if encryptinput == "L":
         output = "@"
 
-    if encryptinput == "`":
+    if encryptinput == "M":
         output = ":"
 
-    if encryptinput == "¦":
+    if encryptinput == "N":
         output = "#"
+
+    if encryptinput == "O":
+        output = "'"
+
+    if encryptinput == "P":
+        output = ";"
+
+    if encryptinput == "Q":
+        output = "}"
+
+    if encryptinput == "R":
+        output = "{"
+
+    if encryptinput == "S":
+        output = "]"
+
+    if encryptinput == "®":
+        output = "["
+
+    if encryptinput == "™":
+        output = "+"
+
+    if encryptinput == "©":
+        output = "_"
+
+    if encryptinput == "T":
+        output = "="
+
+    if encryptinput == "U":
+        output = "-"
+
+    if encryptinput == "V":
+        output = ")"
+
+    if encryptinput == "W":
+        output = "("
+
+    if encryptinput == "X":
+        output = "*"
+
+    if encryptinput == "Y":
+        output = "&"
+
+    if encryptinput == "Z":
+        output = "^"
+
+    if encryptinput == "¬":
+        output = "%"
+
+    if encryptinput == "`":
+        output = "$"
+
+    if encryptinput == "¦":
+        output = "£"
 
     if encryptinput == "!":
         output = "'"
 
-    if encryptinput == '"':
-        output = ";"
-
-    if encryptinput == "£":
-        output = "}"
-
-    if encryptinput == "$":
-        output = "{"
-
-    if encryptinput == "%":
-        output = "]"
-
-    if encryptinput == "^":
-        output = "["
-
-    if encryptinput == "&":
-        output = "+"
-
-    if encryptinput == "*":
-        output = "_"
-
-    if encryptinput == "(":
-        output = "="
-
-    if encryptinput == ")":
-        output = "-"
-
-    if encryptinput == "-":
-        output = ")"
-
-    if encryptinput == "=":
-        output = "("
-
-    if encryptinput == "_":
-        output = "*"
-
-    if encryptinput == "+":
-        output = "&"
-
-    if encryptinput == "[":
-        output = "^"
-
-    if encryptinput == "]":
-        output = "%"
-
-    if encryptinput == "{":
-        output = "$"
-
-    if encryptinput == "}":
-        output = "£"
-
-    if encryptinput == ";":
-        output = '"'
-
     if encryptinput == "'":
         output = "!"
 
-    if encryptinput == "#":
+    if encryptinput == "£":
         output = "¦"
 
-    if encryptinput == ":":
+    if encryptinput == "$":
         output = "`"
 
-    if encryptinput == "@":
+    if encryptinput == "%":
         output = "¬"
 
-    if encryptinput == "~":
+    if encryptinput == "^":
         output = "Z"
 
-    if encryptinput == ",":
+    if encryptinput == "&":
         output = "Y"
 
-    if encryptinput == ".":
+    if encryptinput == "*":
         output = "X"
 
-    if encryptinput == "/":
+    if encryptinput == "(":
         output = "W"
 
-    if encryptinput == "<":
+    if encryptinput == ")":
         output = "V"
 
-    if encryptinput == ">":
+    if encryptinput == "-":
         output = "U"
 
-    if encryptinput == "?":
+    if encryptinput == "=":
         output = "T"
 
-    if encryptinput == " ":
+    if encryptinput == "_":
         output = "©"
 
-    if encryptinput == "|":
+    if encryptinput == "+":
         output = "™"
 
-    if encryptinput == "a":
+    if encryptinput == "[":
         output = "®"
 
-    if encryptinput == "b":
+    if encryptinput == "]":
         output = "S"
 
-    if encryptinput == "c":
+    if encryptinput == "{":
         output = "R"
 
-    if encryptinput == "d":
+    if encryptinput == "}":
         output = "Q"
 
-    if encryptinput == "e":
+    if encryptinput == ";":
         output = "P"
 
-    if encryptinput == "f":
+    if encryptinput == "'":
         output = "O"
 
-    if encryptinput == "g":
+    if encryptinput == "#":
         output = "N"
 
-    if encryptinput == "h":
+    if encryptinput == ":":
         output = "M"
 
-    if encryptinput == "i":
+    if encryptinput == "@":
         output = "L"
 
-    if encryptinput == "j":
+    if encryptinput == "~":
         output = "K"
 
-    if encryptinput == "k":
+    if encryptinput == ",":
         output = "J"
 
-    if encryptinput == "l":
+    if encryptinput == ".":
         output = "I"
 
-    if encryptinput == "m":
+    if encryptinput == "/":
         output = "H"
 
-    if encryptinput == "n":
+    if encryptinput == "<":
         output = "G"
 
-    if encryptinput == "o":
+    if encryptinput == ">":
         output = "F"
 
-    if encryptinput == "p":
+    if encryptinput == "?":
         output = "E"
 
-    if encryptinput == "q":
+    if encryptinput == " ":
         output = "D"
 
-    if encryptinput == "r":
+    if encryptinput == "|":
         output = "C"
 
-    if encryptinput == "s":
+    if encryptinput == "a":
         output = "B"
 
-    if encryptinput == "t":
+    if encryptinput == "b":
         output = "A"
 
-    if encryptinput == "u":
+    if encryptinput == "c":
         output = "9"
 
-    if encryptinput == "v":
+    if encryptinput == "d":
         output = "8"
 
-    if encryptinput == "w":
+    if encryptinput == "e":
         output = "7"
 
-    if encryptinput == "x":
+    if encryptinput == "f":
         output = "6"
 
-    if encryptinput == "y":
+    if encryptinput == "g":
         output = "5"
 
-    if encryptinput == "z":
+    if encryptinput == "h":
         output = "4"
 
-    if encryptinput == "0":
+    if encryptinput == "i":
         output = "3"
 
-    if encryptinput == "1":
+    if encryptinput == "j":
         output = "2"
 
-    if encryptinput == "2":
+    if encryptinput == "k":
         output = "1"
 
-    if encryptinput == "3":
+    if encryptinput == "l":
         output = "0"
 
-    if encryptinput == "4":
+    if encryptinput == "m":
         output = "z"
 
-    if encryptinput == "5":
+    if encryptinput == "n":
         output = "y"
 
-    if encryptinput == "6":
+    if encryptinput == "o":
         output = "x"
 
-    if encryptinput == "7":
+    if encryptinput == "p":
         output = "w"
 
-    if encryptinput == "8":
+    if encryptinput == "q":
         output = "v"
 
-    if encryptinput == "9":
+    if encryptinput == "r":
         output = "u"
 
-    if encryptinput == "A":
+    if encryptinput == "s":
         output = "t"
 
-    if encryptinput == "B":
+    if encryptinput == "t":
         output = "s"
 
-    if encryptinput == "C":
+    if encryptinput == "u":
         output = "r"
 
-    if encryptinput == "D":
+    if encryptinput == "v":
         output = "q"
 
-    if encryptinput == "E":
+    if encryptinput == "w":
         output = "p"
 
-    if encryptinput == "F":
+    if encryptinput == "x":
         output = "o"
 
-    if encryptinput == "G":
+    if encryptinput == "y":
         output = "n"
 
-    if encryptinput == "H":
+    if encryptinput == "z":
         output = "m"
 
-    if encryptinput == "I":
+    if encryptinput == "0":
         output = "l"
 
-    if encryptinput == "J":
+    if encryptinput == "1":
         output = "k"
 
-    if encryptinput == "K":
+    if encryptinput == "2":
         output = "j"
 
-    if encryptinput == "L":
+    if encryptinput == "3":
         output = "i"
 
-    if encryptinput == "M":
+    if encryptinput == "4":
         output = "h"
 
-    if encryptinput == "N":
+    if encryptinput == "5":
         output = "g"
 
-    if encryptinput == "O":
+    if encryptinput == "6":
         output = "f"
 
-    if encryptinput == "P":
+    if encryptinput == "7":
         output = "e"
 
-    if encryptinput == "Q":
+    if encryptinput == "8":
         output = "d"
+
+    if encryptinput == "9":
+        output = "c"
+
+    if encryptinput == "A":
+        output = "b"
+
+    if encryptinput == "B":
+        output = "a"
 
     filey = open("Resources/tempfile.txt","a")
     filey.write(str(output))
     filey.close()
+
 
 def node3(split1):
     output = ""
     encryptinput = split1
 
-    if encryptinput == "®":
+    if encryptinput == "D":
         output = "|"
 
-    if encryptinput == "™":
+    if encryptinput == "E":
         output = " "
 
-    if encryptinput == "©":
+    if encryptinput == "F":
         output = "?"
 
-    if encryptinput == "T":
+    if encryptinput == "G":
         output = ">"
 
-    if encryptinput == "U":
+    if encryptinput == "H":
         output = "<"
 
-    if encryptinput == "V":
+    if encryptinput == "I":
         output = "/"
 
-    if encryptinput == "W":
+    if encryptinput == "J":
         output = "."
 
-    if encryptinput == "X":
+    if encryptinput == "K":
         output = ","
 
-    if encryptinput == "Y":
+    if encryptinput == "L":
         output = "~"
 
-    if encryptinput == "Z":
+    if encryptinput == "M":
         output = "@"
 
-    if encryptinput == "¬":
+    if encryptinput == "N":
         output = ":"
 
-    if encryptinput == "`":
+    if encryptinput == "O":
         output = "#"
 
-    if encryptinput == "¦":
+    if encryptinput == "P":
         output = "'"
 
-    if encryptinput == "!":
+    if encryptinput == "Q":
         output = ";"
 
-    if encryptinput == '"':
+    if encryptinput == "R":
         output = "}"
 
-    if encryptinput == "£":
+    if encryptinput == "S":
         output = "{"
 
-    if encryptinput == "$":
+    if encryptinput == "®":
         output = "]"
 
-    if encryptinput == "%":
+    if encryptinput == "™":
         output = "["
 
-    if encryptinput == "^":
+    if encryptinput == "©":
         output = "+"
 
-    if encryptinput == "&":
+    if encryptinput == "T":
         output = "_"
 
-    if encryptinput == "*":
+    if encryptinput == "U":
         output = "="
 
-    if encryptinput == "(":
+    if encryptinput == "V":
         output = "-"
 
-    if encryptinput == ")":
+    if encryptinput == "W":
         output = ")"
 
-    if encryptinput == "-":
+    if encryptinput == "X":
         output = "("
 
-    if encryptinput == "=":
+    if encryptinput == "Y":
         output = "*"
 
-    if encryptinput == "_":
+    if encryptinput == "Z":
         output = "&"
 
-    if encryptinput == "+":
+    if encryptinput == "¬":
         output = "^"
 
-    if encryptinput == "[":
+    if encryptinput == "`":
         output = "%"
 
-    if encryptinput == "]":
+    if encryptinput == "¦":
         output = "$"
 
-    if encryptinput == "{":
+    if encryptinput == "!":
         output = "£"
 
-    if encryptinput == "}":
-        output = '"'
+    if encryptinput == "'":
+        output = "'"
 
-    if encryptinput == ";":
+    if encryptinput == "£":
         output = "!"
 
-    if encryptinput == "'":
+    if encryptinput == "$":
         output = "¦"
 
-    if encryptinput == "#":
+    if encryptinput == "%":
         output = "`"
 
-    if encryptinput == ":":
+    if encryptinput == "^":
         output = "¬"
 
-    if encryptinput == "@":
+    if encryptinput == "&":
         output = "Z"
 
-    if encryptinput == "~":
+    if encryptinput == "*":
         output = "Y"
 
-    if encryptinput == ",":
+    if encryptinput == "(":
         output = "X"
 
-    if encryptinput == ".":
+    if encryptinput == ")":
         output = "W"
 
-    if encryptinput == "/":
+    if encryptinput == "-":
         output = "V"
 
-    if encryptinput == "<":
+    if encryptinput == "=":
         output = "U"
 
-    if encryptinput == ">":
+    if encryptinput == "_":
         output = "T"
 
-    if encryptinput == "?":
+    if encryptinput == "+":
         output = "©"
 
-    if encryptinput == " ":
+    if encryptinput == "[":
         output = "™"
 
-    if encryptinput == "|":
+    if encryptinput == "]":
         output = "®"
 
-    if encryptinput == "a":
+    if encryptinput == "{":
         output = "S"
 
-    if encryptinput == "b":
+    if encryptinput == "}":
         output = "R"
 
-    if encryptinput == "c":
+    if encryptinput == ";":
         output = "Q"
 
-    if encryptinput == "d":
+    if encryptinput == "'":
         output = "P"
 
-    if encryptinput == "e":
+    if encryptinput == "#":
         output = "O"
 
-    if encryptinput == "f":
+    if encryptinput == ":":
         output = "N"
 
-    if encryptinput == "g":
+    if encryptinput == "@":
         output = "M"
 
-    if encryptinput == "h":
+    if encryptinput == "~":
         output = "L"
 
-    if encryptinput == "i":
+    if encryptinput == ",":
         output = "K"
 
-    if encryptinput == "j":
+    if encryptinput == ".":
         output = "J"
 
-    if encryptinput == "k":
+    if encryptinput == "/":
         output = "I"
 
-    if encryptinput == "l":
+    if encryptinput == "<":
         output = "H"
 
-    if encryptinput == "m":
+    if encryptinput == ">":
         output = "G"
 
-    if encryptinput == "n":
+    if encryptinput == "?":
         output = "F"
 
-    if encryptinput == "o":
+    if encryptinput == " ":
         output = "E"
 
-    if encryptinput == "p":
+    if encryptinput == "|":
         output = "D"
 
-    if encryptinput == "q":
+    if encryptinput == "a":
         output = "C"
 
-    if encryptinput == "r":
+    if encryptinput == "b":
         output = "B"
 
-    if encryptinput == "s":
+    if encryptinput == "c":
         output = "A"
 
-    if encryptinput == "t":
+    if encryptinput == "d":
         output = "9"
 
-    if encryptinput == "u":
+    if encryptinput == "e":
         output = "8"
 
-    if encryptinput == "v":
+    if encryptinput == "f":
         output = "7"
 
-    if encryptinput == "w":
+    if encryptinput == "g":
         output = "6"
 
-    if encryptinput == "x":
+    if encryptinput == "h":
         output = "5"
 
-    if encryptinput == "y":
+    if encryptinput == "i":
         output = "4"
 
-    if encryptinput == "z":
+    if encryptinput == "j":
         output = "3"
 
-    if encryptinput == "0":
+    if encryptinput == "k":
         output = "2"
 
-    if encryptinput == "1":
+    if encryptinput == "l":
         output = "1"
 
-    if encryptinput == "2":
+    if encryptinput == "m":
         output = "0"
 
-    if encryptinput == "3":
+    if encryptinput == "n":
         output = "z"
 
-    if encryptinput == "4":
+    if encryptinput == "o":
         output = "y"
 
-    if encryptinput == "5":
+    if encryptinput == "p":
         output = "x"
 
-    if encryptinput == "6":
+    if encryptinput == "q":
         output = "w"
 
-    if encryptinput == "7":
+    if encryptinput == "r":
         output = "v"
 
-    if encryptinput == "8":
+    if encryptinput == "s":
         output = "u"
 
-    if encryptinput == "9":
+    if encryptinput == "t":
         output = "t"
 
-    if encryptinput == "A":
+    if encryptinput == "u":
         output = "s"
 
-    if encryptinput == "B":
+    if encryptinput == "v":
         output = "r"
 
-    if encryptinput == "C":
+    if encryptinput == "w":
         output = "q"
 
-    if encryptinput == "D":
+    if encryptinput == "x":
         output = "p"
 
-    if encryptinput == "E":
+    if encryptinput == "y":
         output = "o"
 
-    if encryptinput == "F":
+    if encryptinput == "z":
         output = "n"
 
-    if encryptinput == "G":
+    if encryptinput == "0":
         output = "m"
 
-    if encryptinput == "H":
+    if encryptinput == "1":
         output = "l"
 
-    if encryptinput == "I":
+    if encryptinput == "2":
         output = "k"
 
-    if encryptinput == "J":
+    if encryptinput == "3":
         output = "j"
 
-    if encryptinput == "K":
+    if encryptinput == "4":
         output = "i"
 
-    if encryptinput == "L":
+    if encryptinput == "5":
         output = "h"
 
-    if encryptinput == "M":
+    if encryptinput == "6":
         output = "g"
 
-    if encryptinput == "N":
+    if encryptinput == "7":
         output = "f"
 
-    if encryptinput == "O":
+    if encryptinput == "8":
         output = "e"
 
-    if encryptinput == "P":
+    if encryptinput == "9":
         output = "d"
+
+    if encryptinput == "A":
+        output = "c"
+
+    if encryptinput == "B":
+        output = "b"
+
+    if encryptinput == "C":
+        output = "a"
 
     filey = open("Resources/tempfile.txt","a")
     filey.write(str(output))
     filey.close()
+
 
 def node4(split1):
     output = ""
     encryptinput = split1
 
-    if encryptinput == "S":
+    if encryptinput == "E":
         output = "|"
 
-    if encryptinput == "®":
+    if encryptinput == "F":
         output = " "
 
-    if encryptinput == "™":
+    if encryptinput == "G":
         output = "?"
 
-    if encryptinput == "©":
+    if encryptinput == "H":
         output = ">"
 
-    if encryptinput == "T":
+    if encryptinput == "I":
         output = "<"
 
-    if encryptinput == "U":
+    if encryptinput == "J":
         output = "/"
 
-    if encryptinput == "V":
+    if encryptinput == "K":
         output = "."
 
-    if encryptinput == "W":
+    if encryptinput == "L":
         output = ","
 
-    if encryptinput == "X":
+    if encryptinput == "M":
         output = "~"
 
-    if encryptinput == "Y":
+    if encryptinput == "N":
         output = "@"
 
-    if encryptinput == "Z":
+    if encryptinput == "O":
         output = ":"
 
-    if encryptinput == "¬":
+    if encryptinput == "P":
         output = "#"
 
-    if encryptinput == "`":
+    if encryptinput == "Q":
         output = "'"
 
-    if encryptinput == "¦":
+    if encryptinput == "R":
         output = ";"
 
-    if encryptinput == "!":
+    if encryptinput == "S":
         output = "}"
 
-    if encryptinput == '"':
+    if encryptinput == "®":
         output = "{"
 
-    if encryptinput == "£":
+    if encryptinput == "™":
         output = "]"
 
-    if encryptinput == "$":
+    if encryptinput == "©":
         output = "["
 
-    if encryptinput == "%":
+    if encryptinput == "T":
         output = "+"
 
-    if encryptinput == "^":
+    if encryptinput == "U":
         output = "_"
 
-    if encryptinput == "&":
+    if encryptinput == "V":
         output = "="
 
-    if encryptinput == "*":
+    if encryptinput == "W":
         output = "-"
 
-    if encryptinput == "(":
+    if encryptinput == "X":
         output = ")"
 
-    if encryptinput == ")":
+    if encryptinput == "Y":
         output = "("
 
-    if encryptinput == "-":
+    if encryptinput == "Z":
         output = "*"
 
-    if encryptinput == "=":
+    if encryptinput == "¬":
         output = "&"
 
-    if encryptinput == "_":
+    if encryptinput == "`":
         output = "^"
 
-    if encryptinput == "+":
+    if encryptinput == "¦":
         output = "%"
 
-    if encryptinput == "[":
+    if encryptinput == "!":
         output = "$"
 
-    if encryptinput == "]":
+    if encryptinput == "'":
         output = "£"
 
-    if encryptinput == "{":
-        output = '"'
+    if encryptinput == "£":
+        output = "'"
 
-    if encryptinput == "}":
+    if encryptinput == "$":
         output = "!"
 
-    if encryptinput == ";":
+    if encryptinput == "%":
         output = "¦"
 
-    if encryptinput == "'":
+    if encryptinput == "^":
         output = "`"
 
-    if encryptinput == "#":
+    if encryptinput == "&":
         output = "¬"
 
-    if encryptinput == ":":
+    if encryptinput == "*":
         output = "Z"
 
-    if encryptinput == "@":
+    if encryptinput == "(":
         output = "Y"
 
-    if encryptinput == "~":
+    if encryptinput == ")":
         output = "X"
 
-    if encryptinput == ",":
+    if encryptinput == "-":
         output = "W"
 
-    if encryptinput == ".":
+    if encryptinput == "=":
         output = "V"
 
-    if encryptinput == "/":
+    if encryptinput == "_":
         output = "U"
 
-    if encryptinput == "<":
+    if encryptinput == "+":
         output = "T"
 
-    if encryptinput == ">":
+    if encryptinput == "[":
         output = "©"
 
-    if encryptinput == "?":
+    if encryptinput == "]":
         output = "™"
 
-    if encryptinput == " ":
+    if encryptinput == "{":
         output = "®"
 
-    if encryptinput == "|":
+    if encryptinput == "}":
         output = "S"
 
-    if encryptinput == "a":
+    if encryptinput == ";":
         output = "R"
 
-    if encryptinput == "b":
+    if encryptinput == "'":
         output = "Q"
 
-    if encryptinput == "c":
+    if encryptinput == "#":
         output = "P"
 
-    if encryptinput == "d":
+    if encryptinput == ":":
         output = "O"
 
-    if encryptinput == "e":
+    if encryptinput == "@":
         output = "N"
 
-    if encryptinput == "f":
+    if encryptinput == "~":
         output = "M"
 
-    if encryptinput == "g":
+    if encryptinput == ",":
         output = "L"
 
-    if encryptinput == "h":
+    if encryptinput == ".":
         output = "K"
 
-    if encryptinput == "i":
+    if encryptinput == "/":
         output = "J"
 
-    if encryptinput == "j":
+    if encryptinput == "<":
         output = "I"
 
-    if encryptinput == "k":
+    if encryptinput == ">":
         output = "H"
 
-    if encryptinput == "l":
+    if encryptinput == "?":
         output = "G"
 
-    if encryptinput == "m":
+    if encryptinput == " ":
         output = "F"
 
-    if encryptinput == "n":
+    if encryptinput == "|":
         output = "E"
 
-    if encryptinput == "o":
+    if encryptinput == "a":
         output = "D"
 
-    if encryptinput == "p":
+    if encryptinput == "b":
         output = "C"
 
-    if encryptinput == "q":
+    if encryptinput == "c":
         output = "B"
 
-    if encryptinput == "r":
+    if encryptinput == "d":
         output = "A"
 
-    if encryptinput == "s":
+    if encryptinput == "e":
         output = "9"
 
-    if encryptinput == "t":
+    if encryptinput == "f":
         output = "8"
 
-    if encryptinput == "u":
+    if encryptinput == "g":
         output = "7"
 
-    if encryptinput == "v":
+    if encryptinput == "h":
         output = "6"
 
-    if encryptinput == "w":
+    if encryptinput == "i":
         output = "5"
 
-    if encryptinput == "x":
+    if encryptinput == "j":
         output = "4"
 
-    if encryptinput == "y":
+    if encryptinput == "k":
         output = "3"
 
-    if encryptinput == "z":
+    if encryptinput == "l":
         output = "2"
 
-    if encryptinput == "0":
+    if encryptinput == "m":
         output = "1"
 
-    if encryptinput == "1":
+    if encryptinput == "n":
         output = "0"
 
-    if encryptinput == "2":
+    if encryptinput == "o":
         output = "z"
 
-    if encryptinput == "3":
+    if encryptinput == "p":
         output = "y"
 
-    if encryptinput == "4":
+    if encryptinput == "q":
         output = "x"
 
-    if encryptinput == "5":
+    if encryptinput == "r":
         output = "w"
 
-    if encryptinput == "6":
+    if encryptinput == "s":
         output = "v"
 
-    if encryptinput == "7":
+    if encryptinput == "t":
         output = "u"
 
-    if encryptinput == "8":
+    if encryptinput == "u":
         output = "t"
 
-    if encryptinput == "9":
+    if encryptinput == "v":
         output = "s"
 
-    if encryptinput == "A":
+    if encryptinput == "w":
         output = "r"
 
-    if encryptinput == "B":
+    if encryptinput == "x":
         output = "q"
 
-    if encryptinput == "C":
+    if encryptinput == "y":
         output = "p"
 
-    if encryptinput == "D":
+    if encryptinput == "z":
         output = "o"
 
-    if encryptinput == "E":
+    if encryptinput == "0":
         output = "n"
 
-    if encryptinput == "F":
+    if encryptinput == "1":
         output = "m"
 
-    if encryptinput == "G":
+    if encryptinput == "2":
         output = "l"
 
-    if encryptinput == "H":
+    if encryptinput == "3":
         output = "k"
 
-    if encryptinput == "I":
+    if encryptinput == "4":
         output = "j"
 
-    if encryptinput == "J":
+    if encryptinput == "5":
         output = "i"
 
-    if encryptinput == "K":
+    if encryptinput == "6":
         output = "h"
 
-    if encryptinput == "L":
+    if encryptinput == "7":
         output = "g"
 
-    if encryptinput == "M":
+    if encryptinput == "8":
         output = "f"
 
-    if encryptinput == "N":
+    if encryptinput == "9":
         output = "e"
 
-    if encryptinput == "O":
+    if encryptinput == "A":
         output = "d"
+
+    if encryptinput == "B":
+        output = "c"
+
+    if encryptinput == "C":
+        output = "b"
+
+    if encryptinput == "D":
+        output = "a"
 
     filey = open("Resources/tempfile.txt","a")
     filey.write(str(output))
     filey.close()
+
 
 def node5(split1):
     output = ""
     encryptinput = split1
 
-    if encryptinput == "R":
+    if encryptinput == "F":
         output = "|"
 
-    if encryptinput == "S":
+    if encryptinput == "G":
         output = " "
 
-    if encryptinput == "®":
+    if encryptinput == "H":
         output = "?"
 
-    if encryptinput == "™":
+    if encryptinput == "I":
         output = ">"
 
-    if encryptinput == "©":
+    if encryptinput == "J":
         output = "<"
 
-    if encryptinput == "T":
+    if encryptinput == "K":
         output = "/"
 
-    if encryptinput == "U":
+    if encryptinput == "L":
         output = "."
 
-    if encryptinput == "V":
+    if encryptinput == "M":
         output = ","
 
-    if encryptinput == "W":
+    if encryptinput == "N":
         output = "~"
 
-    if encryptinput == "X":
+    if encryptinput == "O":
         output = "@"
 
-    if encryptinput == "Y":
+    if encryptinput == "P":
         output = ":"
 
-    if encryptinput == "Z":
+    if encryptinput == "Q":
         output = "#"
 
-    if encryptinput == "¬":
+    if encryptinput == "R":
         output = "'"
 
-    if encryptinput == "`":
+    if encryptinput == "S":
         output = ";"
 
-    if encryptinput == "¦":
+    if encryptinput == "®":
         output = "}"
 
-    if encryptinput == "!":
+    if encryptinput == "™":
         output = "{"
 
-    if encryptinput == '"':
+    if encryptinput == "©":
         output = "]"
 
-    if encryptinput == "£":
+    if encryptinput == "T":
         output = "["
 
-    if encryptinput == "$":
+    if encryptinput == "U":
         output = "+"
 
-    if encryptinput == "%":
+    if encryptinput == "V":
         output = "_"
 
-    if encryptinput == "^":
+    if encryptinput == "W":
         output = "="
 
-    if encryptinput == "&":
+    if encryptinput == "X":
         output = "-"
 
-    if encryptinput == "*":
+    if encryptinput == "Y":
         output = ")"
 
-    if encryptinput == "(":
+    if encryptinput == "Z":
         output = "("
 
-    if encryptinput == ")":
+    if encryptinput == "¬":
         output = "*"
 
-    if encryptinput == "-":
+    if encryptinput == "`":
         output = "&"
 
-    if encryptinput == "=":
+    if encryptinput == "¦":
         output = "^"
 
-    if encryptinput == "_":
+    if encryptinput == "!":
         output = "%"
 
-    if encryptinput == "+":
+    if encryptinput == "'":
         output = "$"
 
-    if encryptinput == "[":
+    if encryptinput == "£":
         output = "£"
 
-    if encryptinput == "]":
-        output = '"'
+    if encryptinput == "$":
+        output = "'"
 
-    if encryptinput == "{":
+    if encryptinput == "%":
         output = "!"
 
-    if encryptinput == "}":
+    if encryptinput == "^":
         output = "¦"
 
-    if encryptinput == ";":
+    if encryptinput == "&":
         output = "`"
 
-    if encryptinput == "'":
+    if encryptinput == "*":
         output = "¬"
 
-    if encryptinput == "#":
+    if encryptinput == "(":
         output = "Z"
 
-    if encryptinput == ":":
+    if encryptinput == ")":
         output = "Y"
 
-    if encryptinput == "@":
+    if encryptinput == "-":
         output = "X"
 
-    if encryptinput == "~":
+    if encryptinput == "=":
         output = "W"
 
-    if encryptinput == ",":
+    if encryptinput == "_":
         output = "V"
 
-    if encryptinput == ".":
+    if encryptinput == "+":
         output = "U"
 
-    if encryptinput == "/":
+    if encryptinput == "[":
         output = "T"
 
-    if encryptinput == "<":
+    if encryptinput == "]":
         output = "©"
 
-    if encryptinput == ">":
+    if encryptinput == "{":
         output = "™"
 
-    if encryptinput == "?":
+    if encryptinput == "}":
         output = "®"
 
-    if encryptinput == " ":
+    if encryptinput == ";":
         output = "S"
 
-    if encryptinput == "|":
+    if encryptinput == "'":
         output = "R"
 
-    if encryptinput == "a":
+    if encryptinput == "#":
         output = "Q"
 
-    if encryptinput == "b":
+    if encryptinput == ":":
         output = "P"
 
-    if encryptinput == "c":
+    if encryptinput == "@":
         output = "O"
 
-    if encryptinput == "d":
+    if encryptinput == "~":
         output = "N"
 
-    if encryptinput == "e":
+    if encryptinput == ",":
         output = "M"
 
-    if encryptinput == "f":
+    if encryptinput == ".":
         output = "L"
 
-    if encryptinput == "g":
+    if encryptinput == "/":
         output = "K"
 
-    if encryptinput == "h":
+    if encryptinput == "<":
         output = "J"
 
-    if encryptinput == "i":
+    if encryptinput == ">":
         output = "I"
 
-    if encryptinput == "j":
+    if encryptinput == "?":
         output = "H"
 
-    if encryptinput == "k":
+    if encryptinput == " ":
         output = "G"
 
-    if encryptinput == "l":
+    if encryptinput == "|":
         output = "F"
 
-    if encryptinput == "m":
+    if encryptinput == "a":
         output = "E"
 
-    if encryptinput == "n":
+    if encryptinput == "b":
         output = "D"
 
-    if encryptinput == "o":
+    if encryptinput == "c":
         output = "C"
 
-    if encryptinput == "p":
+    if encryptinput == "d":
         output = "B"
 
-    if encryptinput == "q":
+    if encryptinput == "e":
         output = "A"
 
-    if encryptinput == "r":
+    if encryptinput == "f":
         output = "9"
 
-    if encryptinput == "s":
+    if encryptinput == "g":
         output = "8"
 
-    if encryptinput == "t":
+    if encryptinput == "h":
         output = "7"
 
-    if encryptinput == "u":
+    if encryptinput == "i":
         output = "6"
 
-    if encryptinput == "v":
+    if encryptinput == "j":
         output = "5"
 
-    if encryptinput == "w":
+    if encryptinput == "k":
         output = "4"
 
-    if encryptinput == "x":
+    if encryptinput == "l":
         output = "3"
 
-    if encryptinput == "y":
+    if encryptinput == "m":
         output = "2"
 
-    if encryptinput == "z":
+    if encryptinput == "n":
         output = "1"
 
-    if encryptinput == "0":
+    if encryptinput == "o":
         output = "0"
 
-    if encryptinput == "1":
+    if encryptinput == "p":
         output = "z"
 
-    if encryptinput == "2":
+    if encryptinput == "q":
         output = "y"
 
-    if encryptinput == "3":
+    if encryptinput == "r":
         output = "x"
 
-    if encryptinput == "4":
+    if encryptinput == "s":
         output = "w"
 
-    if encryptinput == "5":
+    if encryptinput == "t":
         output = "v"
 
-    if encryptinput == "6":
+    if encryptinput == "u":
         output = "u"
 
-    if encryptinput == "7":
+    if encryptinput == "v":
         output = "t"
 
-    if encryptinput == "8":
+    if encryptinput == "w":
         output = "s"
 
-    if encryptinput == "9":
+    if encryptinput == "x":
         output = "r"
 
-    if encryptinput == "A":
+    if encryptinput == "y":
         output = "q"
 
-    if encryptinput == "B":
+    if encryptinput == "z":
         output = "p"
 
-    if encryptinput == "C":
+    if encryptinput == "0":
         output = "o"
 
-    if encryptinput == "D":
+    if encryptinput == "1":
         output = "n"
 
-    if encryptinput == "E":
+    if encryptinput == "2":
         output = "m"
 
-    if encryptinput == "F":
+    if encryptinput == "3":
         output = "l"
 
-    if encryptinput == "G":
+    if encryptinput == "4":
         output = "k"
 
-    if encryptinput == "H":
+    if encryptinput == "5":
         output = "j"
 
-    if encryptinput == "I":
+    if encryptinput == "6":
         output = "i"
 
-    if encryptinput == "J":
+    if encryptinput == "7":
         output = "h"
 
-    if encryptinput == "K":
+    if encryptinput == "8":
         output = "g"
 
-    if encryptinput == "L":
+    if encryptinput == "9":
         output = "f"
 
-    if encryptinput == "M":
+    if encryptinput == "A":
         output = "e"
 
-    if encryptinput == "N":
+    if encryptinput == "B":
         output = "d"
+
+    if encryptinput == "C":
+        output = "c"
+
+    if encryptinput == "D":
+        output = "b"
+
+    if encryptinput == "E":
+        output = "a"
 
     filey = open("Resources/tempfile.txt","a")
     filey.write(str(output))
     filey.close()
+
 
 def node6(split1):
     output = ""
     encryptinput = split1
 
-    if encryptinput == "Q":
+    if encryptinput == "G":
         output = "|"
 
-    if encryptinput == "R":
+    if encryptinput == "H":
         output = " "
 
-    if encryptinput == "S":
+    if encryptinput == "I":
         output = "?"
 
-    if encryptinput == "®":
+    if encryptinput == "J":
         output = ">"
 
-    if encryptinput == "™":
+    if encryptinput == "K":
         output = "<"
 
-    if encryptinput == "©":
+    if encryptinput == "L":
         output = "/"
 
-    if encryptinput == "T":
+    if encryptinput == "M":
         output = "."
 
-    if encryptinput == "U":
+    if encryptinput == "N":
         output = ","
 
-    if encryptinput == "V":
+    if encryptinput == "O":
         output = "~"
 
-    if encryptinput == "W":
+    if encryptinput == "P":
         output = "@"
 
-    if encryptinput == "X":
+    if encryptinput == "Q":
         output = ":"
 
-    if encryptinput == "Y":
+    if encryptinput == "R":
         output = "#"
 
-    if encryptinput == "Z":
+    if encryptinput == "S":
         output = "'"
 
-    if encryptinput == "¬":
+    if encryptinput == "®":
         output = ";"
 
-    if encryptinput == "`":
+    if encryptinput == "™":
         output = "}"
 
-    if encryptinput == "¦":
+    if encryptinput == "©":
         output = "{"
 
-    if encryptinput == "!":
+    if encryptinput == "T":
         output = "]"
 
-    if encryptinput == '"':
+    if encryptinput == "U":
         output = "["
 
-    if encryptinput == "£":
+    if encryptinput == "V":
         output = "+"
 
-    if encryptinput == "$":
+    if encryptinput == "W":
         output = "_"
 
-    if encryptinput == "%":
+    if encryptinput == "X":
         output = "="
 
-    if encryptinput == "^":
+    if encryptinput == "Y":
         output = "-"
 
-    if encryptinput == "&":
+    if encryptinput == "Z":
         output = ")"
 
-    if encryptinput == "*":
+    if encryptinput == "¬":
         output = "("
 
-    if encryptinput == "(":
+    if encryptinput == "`":
         output = "*"
 
-    if encryptinput == ")":
+    if encryptinput == "¦":
         output = "&"
 
-    if encryptinput == "-":
+    if encryptinput == "!":
         output = "^"
 
-    if encryptinput == "=":
+    if encryptinput == "'":
         output = "%"
 
-    if encryptinput == "_":
+    if encryptinput == "£":
         output = "$"
 
-    if encryptinput == "+":
+    if encryptinput == "$":
         output = "£"
 
-    if encryptinput == "[":
-        output = '"'
+    if encryptinput == "%":
+        output = "'"
 
-    if encryptinput == "]":
+    if encryptinput == "^":
         output = "!"
 
-    if encryptinput == "{":
+    if encryptinput == "&":
         output = "¦"
 
-    if encryptinput == "}":
+    if encryptinput == "*":
         output = "`"
 
-    if encryptinput == ";":
+    if encryptinput == "(":
         output = "¬"
 
-    if encryptinput == "'":
+    if encryptinput == ")":
         output = "Z"
 
-    if encryptinput == "#":
+    if encryptinput == "-":
         output = "Y"
 
-    if encryptinput == ":":
+    if encryptinput == "=":
         output = "X"
 
-    if encryptinput == "@":
+    if encryptinput == "_":
         output = "W"
 
-    if encryptinput == "~":
+    if encryptinput == "+":
         output = "V"
 
-    if encryptinput == ",":
+    if encryptinput == "[":
         output = "U"
 
-    if encryptinput == ".":
+    if encryptinput == "]":
         output = "T"
 
-    if encryptinput == "/":
+    if encryptinput == "{":
         output = "©"
 
-    if encryptinput == "<":
+    if encryptinput == "}":
         output = "™"
 
-    if encryptinput == ">":
+    if encryptinput == ";":
         output = "®"
 
-    if encryptinput == "?":
+    if encryptinput == "'":
         output = "S"
 
-    if encryptinput == " ":
+    if encryptinput == "#":
         output = "R"
 
-    if encryptinput == "|":
+    if encryptinput == ":":
         output = "Q"
 
-    if encryptinput == "a":
+    if encryptinput == "@":
         output = "P"
 
-    if encryptinput == "b":
+    if encryptinput == "~":
         output = "O"
 
-    if encryptinput == "c":
+    if encryptinput == ",":
         output = "N"
 
-    if encryptinput == "d":
+    if encryptinput == ".":
         output = "M"
 
-    if encryptinput == "e":
+    if encryptinput == "/":
         output = "L"
 
-    if encryptinput == "f":
+    if encryptinput == "<":
         output = "K"
 
-    if encryptinput == "g":
+    if encryptinput == ">":
         output = "J"
 
-    if encryptinput == "h":
+    if encryptinput == "?":
         output = "I"
 
-    if encryptinput == "i":
+    if encryptinput == " ":
         output = "H"
 
-    if encryptinput == "j":
+    if encryptinput == "|":
         output = "G"
 
-    if encryptinput == "k":
+    if encryptinput == "a":
         output = "F"
 
-    if encryptinput == "l":
+    if encryptinput == "b":
         output = "E"
 
-    if encryptinput == "m":
+    if encryptinput == "c":
         output = "D"
 
-    if encryptinput == "n":
+    if encryptinput == "d":
         output = "C"
 
-    if encryptinput == "o":
+    if encryptinput == "e":
         output = "B"
 
-    if encryptinput == "p":
+    if encryptinput == "f":
         output = "A"
 
-    if encryptinput == "q":
+    if encryptinput == "g":
         output = "9"
 
-    if encryptinput == "r":
+    if encryptinput == "h":
         output = "8"
 
-    if encryptinput == "s":
+    if encryptinput == "i":
         output = "7"
 
-    if encryptinput == "t":
+    if encryptinput == "j":
         output = "6"
 
-    if encryptinput == "u":
+    if encryptinput == "k":
         output = "5"
 
-    if encryptinput == "v":
+    if encryptinput == "l":
         output = "4"
 
-    if encryptinput == "w":
+    if encryptinput == "m":
         output = "3"
 
-    if encryptinput == "x":
+    if encryptinput == "n":
         output = "2"
 
-    if encryptinput == "y":
+    if encryptinput == "o":
         output = "1"
 
-    if encryptinput == "z":
+    if encryptinput == "p":
         output = "0"
 
-    if encryptinput == "0":
+    if encryptinput == "q":
         output = "z"
 
-    if encryptinput == "1":
+    if encryptinput == "r":
         output = "y"
 
-    if encryptinput == "2":
+    if encryptinput == "s":
         output = "x"
 
-    if encryptinput == "3":
+    if encryptinput == "t":
         output = "w"
 
-    if encryptinput == "4":
+    if encryptinput == "u":
         output = "v"
 
-    if encryptinput == "5":
+    if encryptinput == "v":
         output = "u"
 
-    if encryptinput == "6":
+    if encryptinput == "w":
         output = "t"
 
-    if encryptinput == "7":
+    if encryptinput == "x":
         output = "s"
 
-    if encryptinput == "8":
+    if encryptinput == "y":
         output = "r"
 
-    if encryptinput == "9":
+    if encryptinput == "z":
         output = "q"
 
-    if encryptinput == "A":
+    if encryptinput == "0":
         output = "p"
 
-    if encryptinput == "B":
+    if encryptinput == "1":
         output = "o"
 
-    if encryptinput == "C":
+    if encryptinput == "2":
         output = "n"
 
-    if encryptinput == "D":
+    if encryptinput == "3":
         output = "m"
 
-    if encryptinput == "E":
+    if encryptinput == "4":
         output = "l"
 
-    if encryptinput == "F":
+    if encryptinput == "5":
         output = "k"
 
-    if encryptinput == "G":
+    if encryptinput == "6":
         output = "j"
 
-    if encryptinput == "H":
+    if encryptinput == "7":
         output = "i"
 
-    if encryptinput == "I":
+    if encryptinput == "8":
         output = "h"
 
-    if encryptinput == "J":
+    if encryptinput == "9":
         output = "g"
 
-    if encryptinput == "K":
+    if encryptinput == "A":
         output = "f"
 
-    if encryptinput == "L":
+    if encryptinput == "B":
         output = "e"
 
-    if encryptinput == "M":
+    if encryptinput == "C":
         output = "d"
+
+    if encryptinput == "D":
+        output = "c"
+
+    if encryptinput == "E":
+        output = "b"
+
+    if encryptinput == "F":
+        output = "a"
 
     filey = open("Resources/tempfile.txt","a")
     filey.write(str(output))
     filey.close()
+
 
 def node7(split1):
     output = ""
     encryptinput = split1
 
-    if encryptinput == "P":
+    if encryptinput == "H":
         output = "|"
 
-    if encryptinput == "Q":
+    if encryptinput == "I":
         output = " "
 
-    if encryptinput == "R":
+    if encryptinput == "J":
         output = "?"
 
-    if encryptinput == "S":
+    if encryptinput == "K":
         output = ">"
 
-    if encryptinput == "®":
+    if encryptinput == "L":
         output = "<"
 
-    if encryptinput == "™":
+    if encryptinput == "M":
         output = "/"
 
-    if encryptinput == "©":
+    if encryptinput == "N":
         output = "."
 
-    if encryptinput == "T":
+    if encryptinput == "O":
         output = ","
 
-    if encryptinput == "U":
+    if encryptinput == "P":
         output = "~"
 
-    if encryptinput == "V":
+    if encryptinput == "Q":
         output = "@"
 
-    if encryptinput == "W":
+    if encryptinput == "R":
         output = ":"
 
-    if encryptinput == "X":
+    if encryptinput == "S":
         output = "#"
 
-    if encryptinput == "Y":
+    if encryptinput == "®":
         output = "'"
 
-    if encryptinput == "Z":
+    if encryptinput == "™":
         output = ";"
 
-    if encryptinput == "¬":
+    if encryptinput == "©":
         output = "}"
 
-    if encryptinput == "`":
+    if encryptinput == "T":
         output = "{"
 
-    if encryptinput == "¦":
+    if encryptinput == "U":
         output = "]"
 
-    if encryptinput == "!":
+    if encryptinput == "V":
         output = "["
 
-    if encryptinput == '"':
+    if encryptinput == "W":
         output = "+"
 
-    if encryptinput == "£":
+    if encryptinput == "X":
         output = "_"
 
-    if encryptinput == "$":
+    if encryptinput == "Y":
         output = "="
 
-    if encryptinput == "%":
+    if encryptinput == "Z":
         output = "-"
 
-    if encryptinput == "^":
+    if encryptinput == "¬":
         output = ")"
 
-    if encryptinput == "&":
+    if encryptinput == "`":
         output = "("
 
-    if encryptinput == "*":
+    if encryptinput == "¦":
         output = "*"
 
-    if encryptinput == "(":
+    if encryptinput == "!":
         output = "&"
 
-    if encryptinput == ")":
+    if encryptinput == "'":
         output = "^"
 
-    if encryptinput == "-":
+    if encryptinput == "£":
         output = "%"
 
-    if encryptinput == "=":
+    if encryptinput == "$":
         output = "$"
 
-    if encryptinput == "_":
+    if encryptinput == "%":
         output = "£"
 
-    if encryptinput == "+":
-        output = '"'
+    if encryptinput == "^":
+        output = "'"
 
-    if encryptinput == "[":
+    if encryptinput == "&":
         output = "!"
 
-    if encryptinput == "]":
+    if encryptinput == "*":
         output = "¦"
 
-    if encryptinput == "{":
+    if encryptinput == "(":
         output = "`"
 
-    if encryptinput == "}":
+    if encryptinput == ")":
         output = "¬"
 
-    if encryptinput == ";":
+    if encryptinput == "-":
         output = "Z"
 
-    if encryptinput == "'":
+    if encryptinput == "=":
         output = "Y"
 
-    if encryptinput == "#":
+    if encryptinput == "_":
         output = "X"
 
-    if encryptinput == ":":
+    if encryptinput == "+":
         output = "W"
 
-    if encryptinput == "@":
+    if encryptinput == "[":
         output = "V"
 
-    if encryptinput == "~":
+    if encryptinput == "]":
         output = "U"
 
-    if encryptinput == ",":
+    if encryptinput == "{":
         output = "T"
 
-    if encryptinput == ".":
+    if encryptinput == "}":
         output = "©"
 
-    if encryptinput == "/":
+    if encryptinput == ";":
         output = "™"
 
-    if encryptinput == "<":
+    if encryptinput == "'":
         output = "®"
 
-    if encryptinput == ">":
+    if encryptinput == "#":
         output = "S"
 
-    if encryptinput == "?":
+    if encryptinput == ":":
         output = "R"
 
-    if encryptinput == " ":
+    if encryptinput == "@":
         output = "Q"
 
-    if encryptinput == "|":
+    if encryptinput == "~":
         output = "P"
 
-    if encryptinput == "a":
+    if encryptinput == ",":
         output = "O"
 
-    if encryptinput == "b":
+    if encryptinput == ".":
         output = "N"
 
-    if encryptinput == "c":
+    if encryptinput == "/":
         output = "M"
 
-    if encryptinput == "d":
+    if encryptinput == "<":
         output = "L"
 
-    if encryptinput == "e":
+    if encryptinput == ">":
         output = "K"
 
-    if encryptinput == "f":
+    if encryptinput == "?":
         output = "J"
 
-    if encryptinput == "g":
+    if encryptinput == " ":
         output = "I"
 
-    if encryptinput == "h":
+    if encryptinput == "|":
         output = "H"
 
-    if encryptinput == "i":
+    if encryptinput == "a":
         output = "G"
 
-    if encryptinput == "j":
+    if encryptinput == "b":
         output = "F"
 
-    if encryptinput == "k":
+    if encryptinput == "c":
         output = "E"
 
-    if encryptinput == "l":
+    if encryptinput == "d":
         output = "D"
 
-    if encryptinput == "m":
+    if encryptinput == "e":
         output = "C"
 
-    if encryptinput == "n":
+    if encryptinput == "f":
         output = "B"
 
-    if encryptinput == "o":
+    if encryptinput == "g":
         output = "A"
 
-    if encryptinput == "p":
+    if encryptinput == "h":
         output = "9"
 
-    if encryptinput == "q":
+    if encryptinput == "i":
         output = "8"
 
-    if encryptinput == "r":
+    if encryptinput == "j":
         output = "7"
 
-    if encryptinput == "s":
+    if encryptinput == "k":
         output = "6"
 
-    if encryptinput == "t":
+    if encryptinput == "l":
         output = "5"
 
-    if encryptinput == "u":
+    if encryptinput == "m":
         output = "4"
 
-    if encryptinput == "v":
+    if encryptinput == "n":
         output = "3"
 
-    if encryptinput == "w":
+    if encryptinput == "o":
         output = "2"
 
-    if encryptinput == "x":
+    if encryptinput == "p":
         output = "1"
 
-    if encryptinput == "y":
+    if encryptinput == "q":
         output = "0"
 
-    if encryptinput == "z":
+    if encryptinput == "r":
         output = "z"
 
-    if encryptinput == "0":
+    if encryptinput == "s":
         output = "y"
 
-    if encryptinput == "1":
+    if encryptinput == "t":
         output = "x"
 
-    if encryptinput == "2":
+    if encryptinput == "u":
         output = "w"
 
-    if encryptinput == "3":
+    if encryptinput == "v":
         output = "v"
 
-    if encryptinput == "4":
+    if encryptinput == "w":
         output = "u"
 
-    if encryptinput == "5":
+    if encryptinput == "x":
         output = "t"
 
-    if encryptinput == "6":
+    if encryptinput == "y":
         output = "s"
 
-    if encryptinput == "7":
+    if encryptinput == "z":
         output = "r"
 
-    if encryptinput == "8":
+    if encryptinput == "0":
         output = "q"
 
-    if encryptinput == "9":
+    if encryptinput == "1":
         output = "p"
 
-    if encryptinput == "A":
+    if encryptinput == "2":
         output = "o"
 
-    if encryptinput == "B":
+    if encryptinput == "3":
         output = "n"
 
-    if encryptinput == "C":
+    if encryptinput == "4":
         output = "m"
 
-    if encryptinput == "D":
+    if encryptinput == "5":
         output = "l"
 
-    if encryptinput == "E":
+    if encryptinput == "6":
         output = "k"
 
-    if encryptinput == "F":
+    if encryptinput == "7":
         output = "j"
 
-    if encryptinput == "G":
+    if encryptinput == "8":
         output = "i"
 
-    if encryptinput == "H":
+    if encryptinput == "9":
         output = "h"
 
-    if encryptinput == "I":
+    if encryptinput == "A":
         output = "g"
 
-    if encryptinput == "J":
+    if encryptinput == "B":
         output = "f"
 
-    if encryptinput == "K":
+    if encryptinput == "C":
         output = "e"
 
-    if encryptinput == "L":
+    if encryptinput == "D":
         output = "d"
+
+    if encryptinput == "E":
+        output = "c"
+
+    if encryptinput == "F":
+        output = "b"
+
+    if encryptinput == "G":
+        output = "a"
 
     filey = open("Resources/tempfile.txt","a")
     filey.write(str(output))
     filey.close()
+
 
 def node8(split1):
     output = ""
     encryptinput = split1
 
-    if encryptinput == "O":
+    if encryptinput == "I":
         output = "|"
 
-    if encryptinput == "P":
+    if encryptinput == "J":
         output = " "
 
-    if encryptinput == "Q":
+    if encryptinput == "K":
         output = "?"
 
-    if encryptinput == "R":
+    if encryptinput == "L":
         output = ">"
 
-    if encryptinput == "S":
+    if encryptinput == "M":
         output = "<"
 
-    if encryptinput == "®":
+    if encryptinput == "N":
         output = "/"
 
-    if encryptinput == "™":
+    if encryptinput == "O":
         output = "."
 
-    if encryptinput == "©":
+    if encryptinput == "P":
         output = ","
 
-    if encryptinput == "T":
+    if encryptinput == "Q":
         output = "~"
 
-    if encryptinput == "U":
+    if encryptinput == "R":
         output = "@"
 
-    if encryptinput == "V":
+    if encryptinput == "S":
         output = ":"
 
-    if encryptinput == "W":
+    if encryptinput == "®":
         output = "#"
 
-    if encryptinput == "X":
+    if encryptinput == "™":
         output = "'"
 
-    if encryptinput == "Y":
+    if encryptinput == "©":
         output = ";"
 
-    if encryptinput == "Z":
+    if encryptinput == "T":
         output = "}"
 
-    if encryptinput == "¬":
+    if encryptinput == "U":
         output = "{"
 
-    if encryptinput == "`":
+    if encryptinput == "V":
         output = "]"
 
-    if encryptinput == "¦":
+    if encryptinput == "W":
         output = "["
 
-    if encryptinput == "!":
+    if encryptinput == "X":
         output = "+"
 
-    if encryptinput == '"':
+    if encryptinput == "Y":
         output = "_"
 
-    if encryptinput == "£":
+    if encryptinput == "Z":
         output = "="
 
-    if encryptinput == "$":
+    if encryptinput == "¬":
         output = "-"
 
-    if encryptinput == "%":
+    if encryptinput == "`":
         output = ")"
 
-    if encryptinput == "^":
+    if encryptinput == "¦":
         output = "("
 
-    if encryptinput == "&":
+    if encryptinput == "!":
         output = "*"
 
-    if encryptinput == "*":
+    if encryptinput == "'":
         output = "&"
 
-    if encryptinput == "(":
+    if encryptinput == "£":
         output = "^"
 
-    if encryptinput == ")":
+    if encryptinput == "$":
         output = "%"
 
-    if encryptinput == "-":
+    if encryptinput == "%":
         output = "$"
 
-    if encryptinput == "=":
+    if encryptinput == "^":
         output = "£"
 
-    if encryptinput == "_":
-        output = '"'
+    if encryptinput == "&":
+        output = "'"
 
-    if encryptinput == "+":
+    if encryptinput == "*":
         output = "!"
 
-    if encryptinput == "[":
+    if encryptinput == "(":
         output = "¦"
 
-    if encryptinput == "]":
+    if encryptinput == ")":
         output = "`"
 
-    if encryptinput == "{":
+    if encryptinput == "-":
         output = "¬"
 
-    if encryptinput == "}":
+    if encryptinput == "=":
         output = "Z"
 
-    if encryptinput == ";":
+    if encryptinput == "_":
         output = "Y"
 
-    if encryptinput == "'":
+    if encryptinput == "+":
         output = "X"
 
-    if encryptinput == "#":
+    if encryptinput == "[":
         output = "W"
 
-    if encryptinput == ":":
+    if encryptinput == "]":
         output = "V"
 
-    if encryptinput == "@":
+    if encryptinput == "{":
         output = "U"
 
-    if encryptinput == "~":
+    if encryptinput == "}":
         output = "T"
 
-    if encryptinput == ",":
+    if encryptinput == ";":
         output = "©"
 
-    if encryptinput == ".":
+    if encryptinput == "'":
         output = "™"
 
-    if encryptinput == "/":
+    if encryptinput == "#":
         output = "®"
 
-    if encryptinput == "<":
+    if encryptinput == ":":
         output = "S"
 
-    if encryptinput == ">":
+    if encryptinput == "@":
         output = "R"
 
-    if encryptinput == "?":
+    if encryptinput == "~":
         output = "Q"
 
-    if encryptinput == " ":
+    if encryptinput == ",":
         output = "P"
 
-    if encryptinput == "|":
+    if encryptinput == ".":
         output = "O"
 
-    if encryptinput == "a":
+    if encryptinput == "/":
         output = "N"
 
-    if encryptinput == "b":
+    if encryptinput == "<":
         output = "M"
 
-    if encryptinput == "c":
+    if encryptinput == ">":
         output = "L"
 
-    if encryptinput == "d":
+    if encryptinput == "?":
         output = "K"
 
-    if encryptinput == "e":
+    if encryptinput == " ":
         output = "J"
 
-    if encryptinput == "f":
+    if encryptinput == "|":
         output = "I"
 
-    if encryptinput == "g":
+    if encryptinput == "a":
         output = "H"
 
-    if encryptinput == "h":
+    if encryptinput == "b":
         output = "G"
 
-    if encryptinput == "i":
+    if encryptinput == "c":
         output = "F"
 
-    if encryptinput == "j":
+    if encryptinput == "d":
         output = "E"
 
-    if encryptinput == "k":
+    if encryptinput == "e":
         output = "D"
 
-    if encryptinput == "l":
+    if encryptinput == "f":
         output = "C"
 
-    if encryptinput == "m":
+    if encryptinput == "g":
         output = "B"
 
-    if encryptinput == "n":
+    if encryptinput == "h":
         output = "A"
 
-    if encryptinput == "o":
+    if encryptinput == "i":
         output = "9"
 
-    if encryptinput == "p":
+    if encryptinput == "j":
         output = "8"
 
-    if encryptinput == "q":
+    if encryptinput == "k":
         output = "7"
 
-    if encryptinput == "r":
+    if encryptinput == "l":
         output = "6"
 
-    if encryptinput == "s":
+    if encryptinput == "m":
         output = "5"
 
-    if encryptinput == "t":
+    if encryptinput == "n":
         output = "4"
 
-    if encryptinput == "u":
+    if encryptinput == "o":
         output = "3"
 
-    if encryptinput == "v":
+    if encryptinput == "p":
         output = "2"
 
-    if encryptinput == "w":
+    if encryptinput == "q":
         output = "1"
 
-    if encryptinput == "x":
+    if encryptinput == "r":
         output = "0"
 
-    if encryptinput == "y":
+    if encryptinput == "s":
         output = "z"
 
-    if encryptinput == "z":
+    if encryptinput == "t":
         output = "y"
 
-    if encryptinput == "0":
+    if encryptinput == "u":
         output = "x"
 
-    if encryptinput == "1":
+    if encryptinput == "v":
         output = "w"
 
-    if encryptinput == "2":
+    if encryptinput == "w":
         output = "v"
 
-    if encryptinput == "3":
+    if encryptinput == "x":
         output = "u"
 
-    if encryptinput == "4":
+    if encryptinput == "y":
         output = "t"
 
-    if encryptinput == "5":
+    if encryptinput == "z":
         output = "s"
 
-    if encryptinput == "6":
+    if encryptinput == "0":
         output = "r"
 
-    if encryptinput == "7":
+    if encryptinput == "1":
         output = "q"
 
-    if encryptinput == "8":
+    if encryptinput == "2":
         output = "p"
 
-    if encryptinput == "9":
+    if encryptinput == "3":
         output = "o"
 
-    if encryptinput == "A":
+    if encryptinput == "4":
         output = "n"
 
-    if encryptinput == "B":
+    if encryptinput == "5":
         output = "m"
 
-    if encryptinput == "C":
+    if encryptinput == "6":
         output = "l"
 
-    if encryptinput == "D":
+    if encryptinput == "7":
         output = "k"
 
-    if encryptinput == "E":
+    if encryptinput == "8":
         output = "j"
 
-    if encryptinput == "F":
+    if encryptinput == "9":
         output = "i"
 
-    if encryptinput == "G":
+    if encryptinput == "A":
         output = "h"
 
-    if encryptinput == "H":
+    if encryptinput == "B":
         output = "g"
 
-    if encryptinput == "I":
+    if encryptinput == "C":
         output = "f"
 
-    if encryptinput == "J":
+    if encryptinput == "D":
         output = "e"
 
-    if encryptinput == "K":
+    if encryptinput == "E":
         output = "d"
+
+    if encryptinput == "F":
+        output = "c"
+
+    if encryptinput == "G":
+        output = "b"
+
+    if encryptinput == "H":
+        output = "a"
 
     filey = open("Resources/tempfile.txt","a")
     filey.write(str(output))
     filey.close()
+
 
 def node9(split1):
     output = ""
     encryptinput = split1
 
-    if encryptinput == "N":
+    if encryptinput == "J":
         output = "|"
 
-    if encryptinput == "O":
+    if encryptinput == "K":
         output = " "
 
-    if encryptinput == "P":
+    if encryptinput == "L":
         output = "?"
 
-    if encryptinput == "Q":
+    if encryptinput == "M":
         output = ">"
 
-    if encryptinput == "R":
+    if encryptinput == "N":
         output = "<"
 
-    if encryptinput == "S":
+    if encryptinput == "O":
         output = "/"
 
-    if encryptinput == "®":
+    if encryptinput == "P":
         output = "."
 
-    if encryptinput == "™":
+    if encryptinput == "Q":
         output = ","
 
-    if encryptinput == "©":
+    if encryptinput == "R":
         output = "~"
 
-    if encryptinput == "T":
+    if encryptinput == "S":
         output = "@"
 
-    if encryptinput == "U":
+    if encryptinput == "®":
         output = ":"
 
-    if encryptinput == "V":
+    if encryptinput == "™":
         output = "#"
 
-    if encryptinput == "W":
+    if encryptinput == "©":
         output = "'"
 
-    if encryptinput == "X":
+    if encryptinput == "T":
         output = ";"
 
-    if encryptinput == "Y":
+    if encryptinput == "U":
         output = "}"
 
-    if encryptinput == "Z":
+    if encryptinput == "V":
         output = "{"
 
-    if encryptinput == "¬":
+    if encryptinput == "W":
         output = "]"
 
-    if encryptinput == "`":
+    if encryptinput == "X":
         output = "["
 
-    if encryptinput == "¦":
+    if encryptinput == "Y":
         output = "+"
 
-    if encryptinput == "!":
+    if encryptinput == "Z":
         output = "_"
 
-    if encryptinput == '"':
+    if encryptinput == "¬":
         output = "="
 
-    if encryptinput == "£":
+    if encryptinput == "`":
         output = "-"
 
-    if encryptinput == "$":
+    if encryptinput == "¦":
         output = ")"
 
-    if encryptinput == "%":
+    if encryptinput == "!":
         output = "("
 
-    if encryptinput == "^":
+    if encryptinput == "'":
         output = "*"
 
-    if encryptinput == "&":
+    if encryptinput == "£":
         output = "&"
 
-    if encryptinput == "*":
+    if encryptinput == "$":
         output = "^"
 
-    if encryptinput == "(":
+    if encryptinput == "%":
         output = "%"
 
-    if encryptinput == ")":
+    if encryptinput == "^":
         output = "$"
 
-    if encryptinput == "-":
+    if encryptinput == "&":
         output = "£"
 
-    if encryptinput == "=":
-        output = '"'
+    if encryptinput == "*":
+        output = "'"
 
-    if encryptinput == "_":
+    if encryptinput == "(":
         output = "!"
 
-    if encryptinput == "+":
+    if encryptinput == ")":
         output = "¦"
 
-    if encryptinput == "[":
+    if encryptinput == "-":
         output = "`"
 
-    if encryptinput == "]":
+    if encryptinput == "=":
         output = "¬"
 
-    if encryptinput == "{":
+    if encryptinput == "_":
         output = "Z"
 
-    if encryptinput == "}":
+    if encryptinput == "+":
         output = "Y"
 
-    if encryptinput == ";":
+    if encryptinput == "[":
         output = "X"
 
-    if encryptinput == "'":
+    if encryptinput == "]":
         output = "W"
 
-    if encryptinput == "#":
+    if encryptinput == "{":
         output = "V"
 
-    if encryptinput == ":":
+    if encryptinput == "}":
         output = "U"
 
-    if encryptinput == "@":
+    if encryptinput == ";":
         output = "T"
 
-    if encryptinput == "~":
+    if encryptinput == "'":
         output = "©"
 
-    if encryptinput == ",":
+    if encryptinput == "#":
         output = "™"
 
-    if encryptinput == ".":
+    if encryptinput == ":":
         output = "®"
 
-    if encryptinput == "/":
+    if encryptinput == "@":
         output = "S"
 
-    if encryptinput == "<":
+    if encryptinput == "~":
         output = "R"
 
-    if encryptinput == ">":
+    if encryptinput == ",":
         output = "Q"
 
-    if encryptinput == "?":
+    if encryptinput == ".":
         output = "P"
 
-    if encryptinput == " ":
+    if encryptinput == "/":
         output = "O"
 
-    if encryptinput == "|":
+    if encryptinput == "<":
         output = "N"
 
-    if encryptinput == "a":
+    if encryptinput == ">":
         output = "M"
 
-    if encryptinput == "b":
+    if encryptinput == "?":
         output = "L"
 
-    if encryptinput == "c":
+    if encryptinput == " ":
         output = "K"
 
-    if encryptinput == "d":
+    if encryptinput == "|":
         output = "J"
 
-    if encryptinput == "e":
+    if encryptinput == "a":
         output = "I"
 
-    if encryptinput == "f":
+    if encryptinput == "b":
         output = "H"
 
-    if encryptinput == "g":
+    if encryptinput == "c":
         output = "G"
 
-    if encryptinput == "h":
+    if encryptinput == "d":
         output = "F"
 
-    if encryptinput == "i":
+    if encryptinput == "e":
         output = "E"
 
-    if encryptinput == "j":
+    if encryptinput == "f":
         output = "D"
 
-    if encryptinput == "k":
+    if encryptinput == "g":
         output = "C"
 
-    if encryptinput == "l":
+    if encryptinput == "h":
         output = "B"
 
-    if encryptinput == "m":
+    if encryptinput == "i":
         output = "A"
 
-    if encryptinput == "n":
+    if encryptinput == "j":
         output = "9"
 
-    if encryptinput == "o":
+    if encryptinput == "k":
         output = "8"
 
-    if encryptinput == "p":
+    if encryptinput == "l":
         output = "7"
 
-    if encryptinput == "q":
+    if encryptinput == "m":
         output = "6"
 
-    if encryptinput == "r":
+    if encryptinput == "n":
         output = "5"
 
-    if encryptinput == "s":
+    if encryptinput == "o":
         output = "4"
 
-    if encryptinput == "t":
+    if encryptinput == "p":
         output = "3"
 
-    if encryptinput == "u":
+    if encryptinput == "q":
         output = "2"
 
-    if encryptinput == "v":
+    if encryptinput == "r":
         output = "1"
 
-    if encryptinput == "w":
+    if encryptinput == "s":
         output = "0"
 
-    if encryptinput == "x":
+    if encryptinput == "t":
         output = "z"
 
-    if encryptinput == "y":
+    if encryptinput == "u":
         output = "y"
 
-    if encryptinput == "z":
+    if encryptinput == "v":
         output = "x"
 
-    if encryptinput == "0":
+    if encryptinput == "w":
         output = "w"
 
-    if encryptinput == "1":
+    if encryptinput == "x":
         output = "v"
 
-    if encryptinput == "2":
+    if encryptinput == "y":
         output = "u"
 
-    if encryptinput == "3":
+    if encryptinput == "z":
         output = "t"
 
-    if encryptinput == "4":
+    if encryptinput == "0":
         output = "s"
 
-    if encryptinput == "5":
+    if encryptinput == "1":
         output = "r"
 
-    if encryptinput == "6":
+    if encryptinput == "2":
         output = "q"
 
-    if encryptinput == "7":
+    if encryptinput == "3":
         output = "p"
 
-    if encryptinput == "8":
+    if encryptinput == "4":
         output = "o"
 
-    if encryptinput == "9":
+    if encryptinput == "5":
         output = "n"
 
-    if encryptinput == "A":
+    if encryptinput == "6":
         output = "m"
 
-    if encryptinput == "B":
+    if encryptinput == "7":
         output = "l"
 
-    if encryptinput == "C":
+    if encryptinput == "8":
         output = "k"
 
-    if encryptinput == "D":
+    if encryptinput == "9":
         output = "j"
 
-    if encryptinput == "E":
+    if encryptinput == "A":
         output = "i"
 
-    if encryptinput == "F":
+    if encryptinput == "B":
         output = "h"
 
-    if encryptinput == "G":
+    if encryptinput == "C":
         output = "g"
 
-    if encryptinput == "H":
+    if encryptinput == "D":
         output = "f"
 
-    if encryptinput == "I":
+    if encryptinput == "E":
         output = "e"
 
-    if encryptinput == "J":
+    if encryptinput == "F":
         output = "d"
+
+    if encryptinput == "G":
+        output = "c"
+
+    if encryptinput == "H":
+        output = "b"
+
+    if encryptinput == "I":
+        output = "a"
 
     filey = open("Resources/tempfile.txt","a")
     filey.write(str(output))
     filey.close()
+
 
 def nodea(split1):
     output = ""
     encryptinput = split1
 
-    if encryptinput == "M":
+    if encryptinput == "K":
         output = "|"
 
-    if encryptinput == "N":
+    if encryptinput == "L":
         output = " "
 
-    if encryptinput == "O":
+    if encryptinput == "M":
         output = "?"
 
-    if encryptinput == "P":
+    if encryptinput == "N":
         output = ">"
 
-    if encryptinput == "Q":
+    if encryptinput == "O":
         output = "<"
 
-    if encryptinput == "R":
+    if encryptinput == "P":
         output = "/"
 
-    if encryptinput == "S":
+    if encryptinput == "Q":
         output = "."
 
-    if encryptinput == "®":
+    if encryptinput == "R":
         output = ","
 
-    if encryptinput == "™":
+    if encryptinput == "S":
         output = "~"
 
-    if encryptinput == "©":
+    if encryptinput == "®":
         output = "@"
 
-    if encryptinput == "T":
+    if encryptinput == "™":
         output = ":"
 
-    if encryptinput == "U":
+    if encryptinput == "©":
         output = "#"
 
-    if encryptinput == "V":
+    if encryptinput == "T":
         output = "'"
 
-    if encryptinput == "W":
+    if encryptinput == "U":
         output = ";"
 
-    if encryptinput == "X":
+    if encryptinput == "V":
         output = "}"
 
-    if encryptinput == "Y":
+    if encryptinput == "W":
         output = "{"
 
-    if encryptinput == "Z":
+    if encryptinput == "X":
         output = "]"
 
-    if encryptinput == "¬":
+    if encryptinput == "Y":
         output = "["
 
-    if encryptinput == "`":
+    if encryptinput == "Z":
         output = "+"
 
-    if encryptinput == "¦":
+    if encryptinput == "¬":
         output = "_"
 
-    if encryptinput == "!":
+    if encryptinput == "`":
         output = "="
 
-    if encryptinput == '"':
+    if encryptinput == "¦":
         output = "-"
 
-    if encryptinput == "£":
+    if encryptinput == "!":
         output = ")"
 
-    if encryptinput == "$":
+    if encryptinput == "'":
         output = "("
 
-    if encryptinput == "%":
+    if encryptinput == "£":
         output = "*"
 
-    if encryptinput == "^":
+    if encryptinput == "$":
         output = "&"
 
-    if encryptinput == "&":
+    if encryptinput == "%":
         output = "^"
 
-    if encryptinput == "*":
+    if encryptinput == "^":
         output = "%"
 
-    if encryptinput == "(":
+    if encryptinput == "&":
         output = "$"
 
-    if encryptinput == ")":
+    if encryptinput == "*":
         output = "£"
 
-    if encryptinput == "-":
-        output = '"'
+    if encryptinput == "(":
+        output = "'"
 
-    if encryptinput == "=":
+    if encryptinput == ")":
         output = "!"
 
-    if encryptinput == "_":
+    if encryptinput == "-":
         output = "¦"
 
-    if encryptinput == "+":
+    if encryptinput == "=":
         output = "`"
 
-    if encryptinput == "[":
+    if encryptinput == "_":
         output = "¬"
 
-    if encryptinput == "]":
+    if encryptinput == "+":
         output = "Z"
 
-    if encryptinput == "{":
+    if encryptinput == "[":
         output = "Y"
 
-    if encryptinput == "}":
+    if encryptinput == "]":
         output = "X"
 
-    if encryptinput == ";":
+    if encryptinput == "{":
         output = "W"
 
-    if encryptinput == "'":
+    if encryptinput == "}":
         output = "V"
 
-    if encryptinput == "#":
+    if encryptinput == ";":
         output = "U"
 
-    if encryptinput == ":":
+    if encryptinput == "'":
         output = "T"
 
-    if encryptinput == "@":
+    if encryptinput == "#":
         output = "©"
 
-    if encryptinput == "~":
+    if encryptinput == ":":
         output = "™"
 
-    if encryptinput == ",":
+    if encryptinput == "@":
         output = "®"
 
-    if encryptinput == ".":
+    if encryptinput == "~":
         output = "S"
 
-    if encryptinput == "/":
+    if encryptinput == ",":
         output = "R"
 
-    if encryptinput == "<":
+    if encryptinput == ".":
         output = "Q"
 
-    if encryptinput == ">":
+    if encryptinput == "/":
         output = "P"
 
-    if encryptinput == "?":
+    if encryptinput == "<":
         output = "O"
 
-    if encryptinput == " ":
+    if encryptinput == ">":
         output = "N"
 
-    if encryptinput == "|":
+    if encryptinput == "?":
         output = "M"
 
-    if encryptinput == "a":
+    if encryptinput == " ":
         output = "L"
 
-    if encryptinput == "b":
+    if encryptinput == "|":
         output = "K"
 
-    if encryptinput == "c":
+    if encryptinput == "a":
         output = "J"
 
-    if encryptinput == "d":
+    if encryptinput == "b":
         output = "I"
 
-    if encryptinput == "e":
+    if encryptinput == "c":
         output = "H"
 
-    if encryptinput == "f":
+    if encryptinput == "d":
         output = "G"
 
-    if encryptinput == "g":
+    if encryptinput == "e":
         output = "F"
 
-    if encryptinput == "h":
+    if encryptinput == "f":
         output = "E"
 
-    if encryptinput == "i":
+    if encryptinput == "g":
         output = "D"
 
-    if encryptinput == "j":
+    if encryptinput == "h":
         output = "C"
 
-    if encryptinput == "k":
+    if encryptinput == "i":
         output = "B"
 
-    if encryptinput == "l":
+    if encryptinput == "j":
         output = "A"
 
-    if encryptinput == "m":
+    if encryptinput == "k":
         output = "9"
 
-    if encryptinput == "n":
+    if encryptinput == "l":
         output = "8"
 
-    if encryptinput == "o":
+    if encryptinput == "m":
         output = "7"
 
-    if encryptinput == "p":
+    if encryptinput == "n":
         output = "6"
 
-    if encryptinput == "q":
+    if encryptinput == "o":
         output = "5"
 
-    if encryptinput == "r":
+    if encryptinput == "p":
         output = "4"
 
-    if encryptinput == "s":
+    if encryptinput == "q":
         output = "3"
 
-    if encryptinput == "t":
+    if encryptinput == "r":
         output = "2"
 
-    if encryptinput == "u":
+    if encryptinput == "s":
         output = "1"
 
-    if encryptinput == "v":
+    if encryptinput == "t":
         output = "0"
 
-    if encryptinput == "w":
+    if encryptinput == "u":
         output = "z"
 
-    if encryptinput == "x":
+    if encryptinput == "v":
         output = "y"
 
-    if encryptinput == "y":
+    if encryptinput == "w":
         output = "x"
 
-    if encryptinput == "z":
+    if encryptinput == "x":
         output = "w"
 
-    if encryptinput == "0":
+    if encryptinput == "y":
         output = "v"
 
-    if encryptinput == "1":
+    if encryptinput == "z":
         output = "u"
 
-    if encryptinput == "2":
+    if encryptinput == "0":
         output = "t"
 
-    if encryptinput == "3":
+    if encryptinput == "1":
         output = "s"
 
-    if encryptinput == "4":
+    if encryptinput == "2":
         output = "r"
 
-    if encryptinput == "5":
+    if encryptinput == "3":
         output = "q"
 
-    if encryptinput == "6":
+    if encryptinput == "4":
         output = "p"
 
-    if encryptinput == "7":
+    if encryptinput == "5":
         output = "o"
 
-    if encryptinput == "8":
+    if encryptinput == "6":
         output = "n"
 
-    if encryptinput == "9":
+    if encryptinput == "7":
         output = "m"
 
-    if encryptinput == "A":
+    if encryptinput == "8":
         output = "l"
 
-    if encryptinput == "B":
+    if encryptinput == "9":
         output = "k"
 
-    if encryptinput == "C":
+    if encryptinput == "A":
         output = "j"
 
-    if encryptinput == "D":
+    if encryptinput == "B":
         output = "i"
 
-    if encryptinput == "E":
+    if encryptinput == "C":
         output = "h"
 
-    if encryptinput == "F":
+    if encryptinput == "D":
         output = "g"
 
-    if encryptinput == "G":
+    if encryptinput == "E":
         output = "f"
 
-    if encryptinput == "H":
+    if encryptinput == "F":
         output = "e"
 
-    if encryptinput == "I":
+    if encryptinput == "G":
         output = "d"
+
+    if encryptinput == "H":
+        output = "c"
+
+    if encryptinput == "I":
+        output = "b"
+
+    if encryptinput == "J":
+        output = "a"
 
     filey = open("Resources/tempfile.txt","a")
     filey.write(str(output))
     filey.close()
+
 
 def nodeb(split1):
     output = ""
@@ -3357,7 +3467,7 @@ def nodeb(split1):
     if encryptinput == "!":
         output = "-"
 
-    if encryptinput == '"':
+    if encryptinput == "'":
         output = ")"
 
     if encryptinput == "£":
@@ -3382,7 +3492,7 @@ def nodeb(split1):
         output = "£"
 
     if encryptinput == ")":
-        output = '"'
+        output = "'"
 
     if encryptinput == "-":
         output = "!"
@@ -3582,1203 +3692,1251 @@ def nodeb(split1):
     if encryptinput == "H":
         output = "d"
 
+    if encryptinput == "I":
+        output = "c"
+
+    if encryptinput == "J":
+        output = "b"
+
+    if encryptinput == "K":
+        output = "a"
+
     filey = open("Resources/tempfile.txt","a")
     filey.write(str(output))
     filey.close()
+
 
 def nodec(split1):
     output = ""
     encryptinput = split1
 
-    if encryptinput == "K":
+    if encryptinput == "M":
         output = "|"
 
-    if encryptinput == "L":
+    if encryptinput == "N":
         output = " "
 
-    if encryptinput == "M":
+    if encryptinput == "O":
         output = "?"
 
-    if encryptinput == "N":
+    if encryptinput == "P":
         output = ">"
 
-    if encryptinput == "O":
+    if encryptinput == "Q":
         output = "<"
 
-    if encryptinput == "P":
+    if encryptinput == "R":
         output = "/"
 
-    if encryptinput == "Q":
+    if encryptinput == "S":
         output = "."
 
-    if encryptinput == "R":
+    if encryptinput == "®":
         output = ","
 
-    if encryptinput == "S":
+    if encryptinput == "™":
         output = "~"
 
-    if encryptinput == "®":
+    if encryptinput == "©":
         output = "@"
 
-    if encryptinput == "™":
+    if encryptinput == "T":
         output = ":"
 
-    if encryptinput == "©":
+    if encryptinput == "U":
         output = "#"
 
-    if encryptinput == "T":
+    if encryptinput == "V":
         output = "'"
 
-    if encryptinput == "U":
+    if encryptinput == "W":
         output = ";"
 
-    if encryptinput == "V":
+    if encryptinput == "X":
         output = "}"
 
-    if encryptinput == "W":
+    if encryptinput == "Y":
         output = "{"
 
-    if encryptinput == "X":
+    if encryptinput == "Z":
         output = "]"
 
-    if encryptinput == "Y":
+    if encryptinput == "¬":
         output = "["
 
-    if encryptinput == "Z":
+    if encryptinput == "`":
         output = "+"
 
-    if encryptinput == "¬":
+    if encryptinput == "¦":
         output = "_"
 
-    if encryptinput == "`":
+    if encryptinput == "!":
         output = "="
 
-    if encryptinput == "¦":
+    if encryptinput == "'":
         output = "-"
 
-    if encryptinput == "!":
+    if encryptinput == "£":
         output = ")"
 
-    if encryptinput == '"':
+    if encryptinput == "$":
         output = "("
 
-    if encryptinput == "£":
+    if encryptinput == "%":
         output = "*"
 
-    if encryptinput == "$":
+    if encryptinput == "^":
         output = "&"
 
-    if encryptinput == "%":
+    if encryptinput == "&":
         output = "^"
 
-    if encryptinput == "^":
+    if encryptinput == "*":
         output = "%"
 
-    if encryptinput == "&":
+    if encryptinput == "(":
         output = "$"
 
-    if encryptinput == "*":
+    if encryptinput == ")":
         output = "£"
 
-    if encryptinput == "(":
-        output = '"'
-
-    if encryptinput == ")":
-        output = "!"
-
     if encryptinput == "-":
-        output = "¦"
+        output = "'"
 
     if encryptinput == "=":
-        output = "`"
+        output = "!"
 
     if encryptinput == "_":
-        output = "¬"
+        output = "¦"
 
     if encryptinput == "+":
-        output = "Z"
+        output = "`"
 
     if encryptinput == "[":
-        output = "Y"
+        output = "¬"
 
     if encryptinput == "]":
-        output = "X"
+        output = "Z"
 
     if encryptinput == "{":
-        output = "W"
+        output = "Y"
 
     if encryptinput == "}":
-        output = "V"
+        output = "X"
 
     if encryptinput == ";":
-        output = "U"
+        output = "W"
 
     if encryptinput == "'":
-        output = "T"
+        output = "V"
 
     if encryptinput == "#":
-        output = "©"
+        output = "U"
 
     if encryptinput == ":":
-        output = "™"
+        output = "T"
 
     if encryptinput == "@":
-        output = "®"
+        output = "©"
 
     if encryptinput == "~":
-        output = "S"
+        output = "™"
 
     if encryptinput == ",":
-        output = "R"
+        output = "®"
 
     if encryptinput == ".":
-        output = "Q"
+        output = "S"
 
     if encryptinput == "/":
-        output = "P"
+        output = "R"
 
     if encryptinput == "<":
-        output = "O"
+        output = "Q"
 
     if encryptinput == ">":
-        output = "N"
+        output = "P"
 
     if encryptinput == "?":
-        output = "M"
+        output = "O"
 
     if encryptinput == " ":
-        output = "L"
+        output = "N"
 
     if encryptinput == "|":
-        output = "K"
+        output = "M"
 
     if encryptinput == "a":
-        output = "J"
+        output = "L"
 
     if encryptinput == "b":
-        output = "I"
+        output = "K"
 
     if encryptinput == "c":
-        output = "H"
+        output = "J"
 
     if encryptinput == "d":
-        output = "G"
+        output = "I"
 
     if encryptinput == "e":
-        output = "F"
+        output = "H"
 
     if encryptinput == "f":
-        output = "E"
+        output = "G"
 
     if encryptinput == "g":
-        output = "D"
+        output = "F"
 
     if encryptinput == "h":
-        output = "C"
+        output = "E"
 
     if encryptinput == "i":
-        output = "B"
+        output = "D"
 
     if encryptinput == "j":
-        output = "A"
+        output = "C"
 
     if encryptinput == "k":
-        output = "9"
+        output = "B"
 
     if encryptinput == "l":
-        output = "8"
+        output = "A"
 
     if encryptinput == "m":
-        output = "7"
+        output = "9"
 
     if encryptinput == "n":
-        output = "6"
+        output = "8"
 
     if encryptinput == "o":
-        output = "5"
+        output = "7"
 
     if encryptinput == "p":
-        output = "4"
+        output = "6"
 
     if encryptinput == "q":
-        output = "3"
+        output = "5"
 
     if encryptinput == "r":
-        output = "2"
+        output = "4"
 
     if encryptinput == "s":
-        output = "1"
+        output = "3"
 
     if encryptinput == "t":
-        output = "0"
+        output = "2"
 
     if encryptinput == "u":
-        output = "z"
+        output = "1"
 
     if encryptinput == "v":
-        output = "y"
+        output = "0"
 
     if encryptinput == "w":
-        output = "x"
+        output = "z"
 
     if encryptinput == "x":
-        output = "w"
+        output = "y"
 
     if encryptinput == "y":
-        output = "v"
+        output = "x"
 
     if encryptinput == "z":
-        output = "u"
+        output = "w"
 
     if encryptinput == "0":
-        output = "t"
+        output = "v"
 
     if encryptinput == "1":
-        output = "s"
+        output = "u"
 
     if encryptinput == "2":
-        output = "r"
+        output = "t"
 
     if encryptinput == "3":
-        output = "q"
+        output = "s"
 
     if encryptinput == "4":
-        output = "p"
+        output = "r"
 
     if encryptinput == "5":
-        output = "o"
+        output = "q"
 
     if encryptinput == "6":
-        output = "n"
+        output = "p"
 
     if encryptinput == "7":
-        output = "m"
+        output = "o"
 
     if encryptinput == "8":
-        output = "l"
+        output = "n"
 
     if encryptinput == "9":
-        output = "k"
+        output = "m"
 
     if encryptinput == "A":
-        output = "j"
+        output = "l"
 
     if encryptinput == "B":
-        output = "i"
+        output = "k"
 
     if encryptinput == "C":
-        output = "h"
+        output = "j"
 
     if encryptinput == "D":
-        output = "g"
+        output = "i"
 
     if encryptinput == "E":
-        output = "f"
+        output = "h"
 
     if encryptinput == "F":
-        output = "e"
+        output = "g"
 
     if encryptinput == "G":
+        output = "f"
+
+    if encryptinput == "H":
+        output = "e"
+
+    if encryptinput == "I":
         output = "d"
+
+    if encryptinput == "J":
+        output = "c"
+
+    if encryptinput == "K":
+        output = "b"
+
+    if encryptinput == "L":
+        output = "a"
 
     filey = open("Resources/tempfile.txt","a")
     filey.write(str(output))
     filey.close()
+
 
 def noded(split1):
     output = ""
     encryptinput = split1
 
-    if encryptinput == "J":
+    if encryptinput == "N":
         output = "|"
 
-    if encryptinput == "K":
+    if encryptinput == "O":
         output = " "
 
-    if encryptinput == "L":
+    if encryptinput == "P":
         output = "?"
 
-    if encryptinput == "M":
+    if encryptinput == "Q":
         output = ">"
 
-    if encryptinput == "N":
+    if encryptinput == "R":
         output = "<"
 
-    if encryptinput == "O":
+    if encryptinput == "S":
         output = "/"
 
-    if encryptinput == "P":
+    if encryptinput == "®":
         output = "."
 
-    if encryptinput == "Q":
+    if encryptinput == "™":
         output = ","
 
-    if encryptinput == "R":
+    if encryptinput == "©":
         output = "~"
 
-    if encryptinput == "S":
+    if encryptinput == "T":
         output = "@"
 
-    if encryptinput == "®":
+    if encryptinput == "U":
         output = ":"
 
-    if encryptinput == "™":
+    if encryptinput == "V":
         output = "#"
 
-    if encryptinput == "©":
+    if encryptinput == "W":
         output = "'"
 
-    if encryptinput == "T":
+    if encryptinput == "X":
         output = ";"
 
-    if encryptinput == "U":
+    if encryptinput == "Y":
         output = "}"
 
-    if encryptinput == "V":
+    if encryptinput == "Z":
         output = "{"
 
-    if encryptinput == "W":
+    if encryptinput == "¬":
         output = "]"
 
-    if encryptinput == "X":
+    if encryptinput == "`":
         output = "["
 
-    if encryptinput == "Y":
+    if encryptinput == "¦":
         output = "+"
 
-    if encryptinput == "Z":
+    if encryptinput == "!":
         output = "_"
 
-    if encryptinput == "¬":
+    if encryptinput == "'":
         output = "="
 
-    if encryptinput == "`":
+    if encryptinput == "£":
         output = "-"
 
-    if encryptinput == "¦":
+    if encryptinput == "$":
         output = ")"
 
-    if encryptinput == "!":
+    if encryptinput == "%":
         output = "("
 
-    if encryptinput == '"':
+    if encryptinput == "^":
         output = "*"
 
-    if encryptinput == "£":
+    if encryptinput == "&":
         output = "&"
 
-    if encryptinput == "$":
+    if encryptinput == "*":
         output = "^"
 
-    if encryptinput == "%":
+    if encryptinput == "(":
         output = "%"
 
-    if encryptinput == "^":
+    if encryptinput == ")":
         output = "$"
 
-    if encryptinput == "&":
+    if encryptinput == "-":
         output = "£"
 
-    if encryptinput == "*":
-        output = '"'
-
-    if encryptinput == "(":
-        output = "!"
-
-    if encryptinput == ")":
-        output = "¦"
-
-    if encryptinput == "-":
-        output = "`"
-
     if encryptinput == "=":
-        output = "¬"
+        output = "'"
 
     if encryptinput == "_":
-        output = "Z"
+        output = "!"
 
     if encryptinput == "+":
-        output = "Y"
+        output = "¦"
 
     if encryptinput == "[":
-        output = "X"
+        output = "`"
 
     if encryptinput == "]":
-        output = "W"
+        output = "¬"
 
     if encryptinput == "{":
-        output = "V"
+        output = "Z"
 
     if encryptinput == "}":
-        output = "U"
+        output = "Y"
 
     if encryptinput == ";":
-        output = "T"
+        output = "X"
 
     if encryptinput == "'":
-        output = "©"
+        output = "W"
 
     if encryptinput == "#":
-        output = "™"
+        output = "V"
 
     if encryptinput == ":":
-        output = "®"
+        output = "U"
 
     if encryptinput == "@":
-        output = "S"
+        output = "T"
 
     if encryptinput == "~":
-        output = "R"
+        output = "©"
 
     if encryptinput == ",":
-        output = "Q"
+        output = "™"
 
     if encryptinput == ".":
-        output = "P"
+        output = "®"
 
     if encryptinput == "/":
-        output = "O"
+        output = "S"
 
     if encryptinput == "<":
-        output = "N"
+        output = "R"
 
     if encryptinput == ">":
-        output = "M"
+        output = "Q"
 
     if encryptinput == "?":
-        output = "L"
+        output = "P"
 
     if encryptinput == " ":
-        output = "K"
+        output = "O"
 
     if encryptinput == "|":
-        output = "J"
+        output = "N"
 
     if encryptinput == "a":
-        output = "I"
+        output = "M"
 
     if encryptinput == "b":
-        output = "H"
+        output = "L"
 
     if encryptinput == "c":
-        output = "G"
+        output = "K"
 
     if encryptinput == "d":
-        output = "F"
+        output = "J"
 
     if encryptinput == "e":
-        output = "E"
+        output = "I"
 
     if encryptinput == "f":
-        output = "D"
+        output = "H"
 
     if encryptinput == "g":
-        output = "C"
+        output = "G"
 
     if encryptinput == "h":
-        output = "B"
+        output = "F"
 
     if encryptinput == "i":
-        output = "A"
+        output = "E"
 
     if encryptinput == "j":
-        output = "9"
+        output = "D"
 
     if encryptinput == "k":
-        output = "8"
+        output = "C"
 
     if encryptinput == "l":
-        output = "7"
+        output = "B"
 
     if encryptinput == "m":
-        output = "6"
+        output = "A"
 
     if encryptinput == "n":
-        output = "5"
+        output = "9"
 
     if encryptinput == "o":
-        output = "4"
+        output = "8"
 
     if encryptinput == "p":
-        output = "3"
+        output = "7"
 
     if encryptinput == "q":
-        output = "2"
+        output = "6"
 
     if encryptinput == "r":
-        output = "1"
+        output = "5"
 
     if encryptinput == "s":
-        output = "0"
+        output = "4"
 
     if encryptinput == "t":
-        output = "z"
+        output = "3"
 
     if encryptinput == "u":
-        output = "y"
+        output = "2"
 
     if encryptinput == "v":
-        output = "x"
+        output = "1"
 
     if encryptinput == "w":
-        output = "w"
+        output = "0"
 
     if encryptinput == "x":
-        output = "v"
+        output = "z"
 
     if encryptinput == "y":
-        output = "u"
+        output = "y"
 
     if encryptinput == "z":
-        output = "t"
+        output = "x"
 
     if encryptinput == "0":
-        output = "s"
+        output = "w"
 
     if encryptinput == "1":
-        output = "r"
+        output = "v"
 
     if encryptinput == "2":
-        output = "q"
+        output = "u"
 
     if encryptinput == "3":
-        output = "p"
+        output = "t"
 
     if encryptinput == "4":
-        output = "o"
+        output = "s"
 
     if encryptinput == "5":
-        output = "n"
+        output = "r"
 
     if encryptinput == "6":
-        output = "m"
+        output = "q"
 
     if encryptinput == "7":
-        output = "l"
+        output = "p"
 
     if encryptinput == "8":
-        output = "k"
+        output = "o"
 
     if encryptinput == "9":
-        output = "j"
+        output = "n"
 
     if encryptinput == "A":
-        output = "i"
+        output = "m"
 
     if encryptinput == "B":
-        output = "h"
+        output = "l"
 
     if encryptinput == "C":
-        output = "g"
+        output = "k"
 
     if encryptinput == "D":
-        output = "f"
+        output = "j"
 
     if encryptinput == "E":
-        output = "e"
+        output = "i"
 
     if encryptinput == "F":
+        output = "h"
+
+    if encryptinput == "G":
+        output = "g"
+
+    if encryptinput == "H":
+        output = "f"
+
+    if encryptinput == "I":
+        output = "e"
+
+    if encryptinput == "J":
         output = "d"
+
+    if encryptinput == "K":
+        output = "c"
+
+    if encryptinput == "L":
+        output = "b"
+
+    if encryptinput == "M":
+        output = "a"
 
     filey = open("Resources/tempfile.txt","a")
     filey.write(str(output))
     filey.close()
+
 
 def nodee(split1):
     output = ""
     encryptinput = split1
 
-    if encryptinput == "I":
+    if encryptinput == "O":
         output = "|"
 
-    if encryptinput == "J":
+    if encryptinput == "P":
         output = " "
 
-    if encryptinput == "K":
+    if encryptinput == "Q":
         output = "?"
 
-    if encryptinput == "L":
+    if encryptinput == "R":
         output = ">"
 
-    if encryptinput == "M":
+    if encryptinput == "S":
         output = "<"
 
-    if encryptinput == "N":
+    if encryptinput == "®":
         output = "/"
 
-    if encryptinput == "O":
+    if encryptinput == "™":
         output = "."
 
-    if encryptinput == "P":
+    if encryptinput == "©":
         output = ","
 
-    if encryptinput == "Q":
+    if encryptinput == "T":
         output = "~"
 
-    if encryptinput == "R":
+    if encryptinput == "U":
         output = "@"
 
-    if encryptinput == "S":
+    if encryptinput == "V":
         output = ":"
 
-    if encryptinput == "®":
+    if encryptinput == "W":
         output = "#"
 
-    if encryptinput == "™":
+    if encryptinput == "X":
         output = "'"
 
-    if encryptinput == "©":
+    if encryptinput == "Y":
         output = ";"
 
-    if encryptinput == "T":
+    if encryptinput == "Z":
         output = "}"
 
-    if encryptinput == "U":
+    if encryptinput == "¬":
         output = "{"
 
-    if encryptinput == "V":
+    if encryptinput == "`":
         output = "]"
 
-    if encryptinput == "W":
+    if encryptinput == "¦":
         output = "["
 
-    if encryptinput == "X":
+    if encryptinput == "!":
         output = "+"
 
-    if encryptinput == "Y":
+    if encryptinput == "'":
         output = "_"
 
-    if encryptinput == "Z":
+    if encryptinput == "£":
         output = "="
 
-    if encryptinput == "¬":
+    if encryptinput == "$":
         output = "-"
 
-    if encryptinput == "`":
+    if encryptinput == "%":
         output = ")"
 
-    if encryptinput == "¦":
+    if encryptinput == "^":
         output = "("
 
-    if encryptinput == "!":
+    if encryptinput == "&":
         output = "*"
 
-    if encryptinput == '"':
+    if encryptinput == "*":
         output = "&"
 
-    if encryptinput == "£":
+    if encryptinput == "(":
         output = "^"
 
-    if encryptinput == "$":
+    if encryptinput == ")":
         output = "%"
 
-    if encryptinput == "%":
+    if encryptinput == "-":
         output = "$"
 
-    if encryptinput == "^":
+    if encryptinput == "=":
         output = "£"
 
-    if encryptinput == "&":
-        output = '"'
-
-    if encryptinput == "*":
-        output = "!"
-
-    if encryptinput == "(":
-        output = "¦"
-
-    if encryptinput == ")":
-        output = "`"
-
-    if encryptinput == "-":
-        output = "¬"
-
-    if encryptinput == "=":
-        output = "Z"
-
     if encryptinput == "_":
-        output = "Y"
+        output = "'"
 
     if encryptinput == "+":
-        output = "X"
+        output = "!"
 
     if encryptinput == "[":
-        output = "W"
+        output = "¦"
 
     if encryptinput == "]":
-        output = "V"
+        output = "`"
 
     if encryptinput == "{":
-        output = "U"
+        output = "¬"
 
     if encryptinput == "}":
-        output = "T"
+        output = "Z"
 
     if encryptinput == ";":
-        output = "©"
+        output = "Y"
 
     if encryptinput == "'":
-        output = "™"
+        output = "X"
 
     if encryptinput == "#":
-        output = "®"
+        output = "W"
 
     if encryptinput == ":":
-        output = "S"
+        output = "V"
 
     if encryptinput == "@":
-        output = "R"
+        output = "U"
 
     if encryptinput == "~":
-        output = "Q"
+        output = "T"
 
     if encryptinput == ",":
-        output = "P"
+        output = "©"
 
     if encryptinput == ".":
-        output = "O"
+        output = "™"
 
     if encryptinput == "/":
-        output = "N"
+        output = "®"
 
     if encryptinput == "<":
-        output = "M"
+        output = "S"
 
     if encryptinput == ">":
-        output = "L"
+        output = "R"
 
     if encryptinput == "?":
-        output = "K"
+        output = "Q"
 
     if encryptinput == " ":
-        output = "J"
+        output = "P"
 
     if encryptinput == "|":
-        output = "I"
+        output = "O"
 
     if encryptinput == "a":
-        output = "H"
+        output = "N"
 
     if encryptinput == "b":
-        output = "G"
+        output = "M"
 
     if encryptinput == "c":
-        output = "F"
+        output = "L"
 
     if encryptinput == "d":
-        output = "E"
+        output = "K"
 
     if encryptinput == "e":
-        output = "D"
+        output = "J"
 
     if encryptinput == "f":
-        output = "C"
+        output = "I"
 
     if encryptinput == "g":
-        output = "B"
+        output = "H"
 
     if encryptinput == "h":
-        output = "A"
+        output = "G"
 
     if encryptinput == "i":
-        output = "9"
+        output = "F"
 
     if encryptinput == "j":
-        output = "8"
+        output = "E"
 
     if encryptinput == "k":
-        output = "7"
+        output = "D"
 
     if encryptinput == "l":
-        output = "6"
+        output = "C"
 
     if encryptinput == "m":
-        output = "5"
+        output = "B"
 
     if encryptinput == "n":
-        output = "4"
+        output = "A"
 
     if encryptinput == "o":
-        output = "3"
+        output = "9"
 
     if encryptinput == "p":
-        output = "2"
+        output = "8"
 
     if encryptinput == "q":
-        output = "1"
+        output = "7"
 
     if encryptinput == "r":
-        output = "0"
+        output = "6"
 
     if encryptinput == "s":
-        output = "z"
+        output = "5"
 
     if encryptinput == "t":
-        output = "y"
+        output = "4"
 
     if encryptinput == "u":
-        output = "x"
+        output = "3"
 
     if encryptinput == "v":
-        output = "w"
+        output = "2"
 
     if encryptinput == "w":
-        output = "v"
+        output = "1"
 
     if encryptinput == "x":
-        output = "u"
+        output = "0"
 
     if encryptinput == "y":
-        output = "t"
+        output = "z"
 
     if encryptinput == "z":
-        output = "s"
+        output = "y"
 
     if encryptinput == "0":
-        output = "r"
+        output = "x"
 
     if encryptinput == "1":
-        output = "q"
+        output = "w"
 
     if encryptinput == "2":
-        output = "p"
+        output = "v"
 
     if encryptinput == "3":
-        output = "o"
+        output = "u"
 
     if encryptinput == "4":
-        output = "n"
+        output = "t"
 
     if encryptinput == "5":
-        output = "m"
+        output = "s"
 
     if encryptinput == "6":
-        output = "l"
+        output = "r"
 
     if encryptinput == "7":
-        output = "k"
+        output = "q"
 
     if encryptinput == "8":
-        output = "j"
+        output = "p"
 
     if encryptinput == "9":
-        output = "i"
+        output = "o"
 
     if encryptinput == "A":
-        output = "h"
+        output = "n"
 
     if encryptinput == "B":
-        output = "g"
+        output = "m"
 
     if encryptinput == "C":
-        output = "f"
+        output = "l"
 
     if encryptinput == "D":
-        output = "e"
+        output = "k"
 
     if encryptinput == "E":
+        output = "j"
+
+    if encryptinput == "F":
+        output = "i"
+
+    if encryptinput == "G":
+        output = "h"
+
+    if encryptinput == "H":
+        output = "g"
+
+    if encryptinput == "I":
+        output = "f"
+
+    if encryptinput == "J":
+        output = "e"
+
+    if encryptinput == "K":
         output = "d"
+
+    if encryptinput == "L":
+        output = "c"
+
+    if encryptinput == "M":
+        output = "b"
+
+    if encryptinput == "N":
+        output = "a"
 
     filey = open("Resources/tempfile.txt","a")
     filey.write(str(output))
     filey.close()
+
 
 def nodef(split1):
     output = ""
     encryptinput = split1
 
-    if encryptinput == "H":
+    if encryptinput == "P":
         output = "|"
 
-    if encryptinput == "I":
+    if encryptinput == "Q":
         output = " "
 
-    if encryptinput == "J":
+    if encryptinput == "R":
         output = "?"
 
-    if encryptinput == "K":
+    if encryptinput == "S":
         output = ">"
 
-    if encryptinput == "L":
+    if encryptinput == "®":
         output = "<"
 
-    if encryptinput == "M":
+    if encryptinput == "™":
         output = "/"
 
-    if encryptinput == "N":
+    if encryptinput == "©":
         output = "."
 
-    if encryptinput == "O":
+    if encryptinput == "T":
         output = ","
 
-    if encryptinput == "P":
+    if encryptinput == "U":
         output = "~"
 
-    if encryptinput == "Q":
+    if encryptinput == "V":
         output = "@"
 
-    if encryptinput == "R":
+    if encryptinput == "W":
         output = ":"
 
-    if encryptinput == "S":
+    if encryptinput == "X":
         output = "#"
 
-    if encryptinput == "®":
+    if encryptinput == "Y":
         output = "'"
 
-    if encryptinput == "™":
+    if encryptinput == "Z":
         output = ";"
 
-    if encryptinput == "©":
+    if encryptinput == "¬":
         output = "}"
 
-    if encryptinput == "T":
+    if encryptinput == "`":
         output = "{"
 
-    if encryptinput == "U":
+    if encryptinput == "¦":
         output = "]"
 
-    if encryptinput == "V":
+    if encryptinput == "!":
         output = "["
 
-    if encryptinput == "W":
+    if encryptinput == "'":
         output = "+"
 
-    if encryptinput == "X":
+    if encryptinput == "£":
         output = "_"
 
-    if encryptinput == "Y":
+    if encryptinput == "$":
         output = "="
 
-    if encryptinput == "Z":
+    if encryptinput == "%":
         output = "-"
 
-    if encryptinput == "¬":
+    if encryptinput == "^":
         output = ")"
 
-    if encryptinput == "`":
+    if encryptinput == "&":
         output = "("
 
-    if encryptinput == "¦":
+    if encryptinput == "*":
         output = "*"
 
-    if encryptinput == "!":
+    if encryptinput == "(":
         output = "&"
 
-    if encryptinput == '"':
+    if encryptinput == ")":
         output = "^"
 
-    if encryptinput == "£":
+    if encryptinput == "-":
         output = "%"
 
-    if encryptinput == "$":
+    if encryptinput == "=":
         output = "$"
 
-    if encryptinput == "%":
+    if encryptinput == "_":
         output = "£"
 
-    if encryptinput == "^":
-        output = '"'
-
-    if encryptinput == "&":
-        output = "!"
-
-    if encryptinput == "*":
-        output = "¦"
-
-    if encryptinput == "(":
-        output = "`"
-
-    if encryptinput == ")":
-        output = "¬"
-
-    if encryptinput == "-":
-        output = "Z"
-
-    if encryptinput == "=":
-        output = "Y"
-
-    if encryptinput == "_":
-        output = "X"
-
     if encryptinput == "+":
-        output = "W"
+        output = "'"
 
     if encryptinput == "[":
-        output = "V"
+        output = "!"
 
     if encryptinput == "]":
-        output = "U"
+        output = "¦"
 
     if encryptinput == "{":
-        output = "T"
+        output = "`"
 
     if encryptinput == "}":
-        output = "©"
+        output = "¬"
 
     if encryptinput == ";":
-        output = "™"
+        output = "Z"
 
     if encryptinput == "'":
-        output = "®"
+        output = "Y"
 
     if encryptinput == "#":
-        output = "S"
+        output = "X"
 
     if encryptinput == ":":
-        output = "R"
+        output = "W"
 
     if encryptinput == "@":
-        output = "Q"
+        output = "V"
 
     if encryptinput == "~":
-        output = "P"
+        output = "U"
 
     if encryptinput == ",":
-        output = "O"
+        output = "T"
 
     if encryptinput == ".":
-        output = "N"
+        output = "©"
 
     if encryptinput == "/":
-        output = "M"
+        output = "™"
 
     if encryptinput == "<":
-        output = "L"
+        output = "®"
 
     if encryptinput == ">":
-        output = "K"
+        output = "S"
 
     if encryptinput == "?":
-        output = "J"
+        output = "R"
 
     if encryptinput == " ":
-        output = "I"
+        output = "Q"
 
     if encryptinput == "|":
-        output = "H"
+        output = "P"
 
     if encryptinput == "a":
-        output = "G"
+        output = "O"
 
     if encryptinput == "b":
-        output = "F"
+        output = "N"
 
     if encryptinput == "c":
-        output = "E"
+        output = "M"
 
     if encryptinput == "d":
-        output = "D"
+        output = "L"
 
     if encryptinput == "e":
-        output = "C"
+        output = "K"
 
     if encryptinput == "f":
-        output = "B"
+        output = "J"
 
     if encryptinput == "g":
-        output = "A"
+        output = "I"
 
     if encryptinput == "h":
-        output = "9"
+        output = "H"
 
     if encryptinput == "i":
-        output = "8"
+        output = "G"
 
     if encryptinput == "j":
-        output = "7"
+        output = "F"
 
     if encryptinput == "k":
-        output = "6"
+        output = "E"
 
     if encryptinput == "l":
-        output = "5"
+        output = "D"
 
     if encryptinput == "m":
-        output = "4"
+        output = "C"
 
     if encryptinput == "n":
-        output = "3"
+        output = "B"
 
     if encryptinput == "o":
-        output = "2"
+        output = "A"
 
     if encryptinput == "p":
-        output = "1"
+        output = "9"
 
     if encryptinput == "q":
-        output = "0"
+        output = "8"
 
     if encryptinput == "r":
-        output = "z"
+        output = "7"
 
     if encryptinput == "s":
-        output = "y"
+        output = "6"
 
     if encryptinput == "t":
-        output = "x"
+        output = "5"
 
     if encryptinput == "u":
-        output = "w"
+        output = "4"
 
     if encryptinput == "v":
-        output = "v"
+        output = "3"
 
     if encryptinput == "w":
-        output = "u"
+        output = "2"
 
     if encryptinput == "x":
-        output = "t"
+        output = "1"
 
     if encryptinput == "y":
-        output = "s"
+        output = "0"
 
     if encryptinput == "z":
-        output = "r"
+        output = "z"
 
     if encryptinput == "0":
-        output = "q"
+        output = "y"
 
     if encryptinput == "1":
-        output = "p"
+        output = "x"
 
     if encryptinput == "2":
-        output = "o"
+        output = "w"
 
     if encryptinput == "3":
-        output = "n"
+        output = "v"
 
     if encryptinput == "4":
-        output = "m"
+        output = "u"
 
     if encryptinput == "5":
-        output = "l"
+        output = "t"
 
     if encryptinput == "6":
-        output = "k"
+        output = "s"
 
     if encryptinput == "7":
-        output = "j"
+        output = "r"
 
     if encryptinput == "8":
-        output = "i"
+        output = "q"
 
     if encryptinput == "9":
-        output = "h"
+        output = "p"
 
     if encryptinput == "A":
-        output = "g"
+        output = "o"
 
     if encryptinput == "B":
-        output = "f"
+        output = "n"
 
     if encryptinput == "C":
-        output = "e"
+        output = "m"
 
     if encryptinput == "D":
+        output = "l"
+
+    if encryptinput == "E":
+        output = "k"
+
+    if encryptinput == "F":
+        output = "j"
+
+    if encryptinput == "G":
+        output = "i"
+
+    if encryptinput == "H":
+        output = "h"
+
+    if encryptinput == "I":
+        output = "g"
+
+    if encryptinput == "J":
+        output = "f"
+
+    if encryptinput == "K":
+        output = "e"
+
+    if encryptinput == "L":
         output = "d"
+
+    if encryptinput == "M":
+        output = "c"
+
+    if encryptinput == "N":
+        output = "b"
+
+    if encryptinput == "O":
+        output = "a"
 
     filey = open("Resources/tempfile.txt","a")
     filey.write(str(output))
     filey.close()
-

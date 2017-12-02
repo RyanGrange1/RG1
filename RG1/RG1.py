@@ -84,11 +84,21 @@ while run == 1:
         #creates the password hash to encrypt from
         userpass=str(Password.get())
 
-        def hash_password(password):
+
+
+        def hash_passwordsha(password):
             return hashlib.sha512(password.encode()).hexdigest()
             
-        passhash = hash_password(userpass)
+        passhash = hash_passwordsha(userpass)
         print(passhash)
+
+
+        
+        def hash_passwordmd5(password):
+            return hashlib.md5(password.encode()).hexdigest()
+
+            passhashmd5 = hash_passwordmd5(userpass)
+        print(passhashmd5)
 
         
             
@@ -133,52 +143,52 @@ while run == 1:
             split1=userimportfile[letter]
 
             if passhash[passlen] == "a":
-                NodeListA.nodea(split1)
+                (NodeListVar).nodea(split1)
                 
             if passhash[passlen] == "b":
-                NodeListA.nodeb(split1)
+                (NodeListVar).nodeb(split1)
                
             if passhash[passlen] == "c":
-                NodeListA.nodec(split1)
+                (NodeListVar).nodec(split1)
                 
             if passhash[passlen] == "d":
-                NodeListA.noded(split1)
+                (NodeListVar).noded(split1)
                 
             if passhash[passlen] == "e":
-                NodeListA.nodee(split1)
+                (NodeListVar).nodee(split1)
                 
             if passhash[passlen] == "f":
-                NodeListA.nodef(split1)
+                (NodeListVar).nodef(split1)
                 
             if passhash[passlen] == "1":
-                NodeListA.node1(split1)
+                (NodeListVar).node1(split1)
               
             if passhash[passlen] == "2":
-                NodeListA.node2(split1)
+                (NodeListVar).node2(split1)
                 
             if passhash[passlen] == "3":
-                NodeListA.node3(split1)
+                (NodeListVar).node3(split1)
                
             if passhash[passlen] == "4":
-                NodeListA.node4(split1)
+                (NodeListVar).node4(split1)
                 
             if passhash[passlen] == "5":
-                NodeListA.node5(split1)
+                (NodeListVar).node5(split1)
                 
             if passhash[passlen] == "6":
-                NodeListA.node6(split1)
+                (NodeListVar).node6(split1)
                 
             if passhash[passlen] == "7":
-                NodeListA.node7(split1)
+                (NodeListVar).node7(split1)
                   
             if passhash[passlen] == "8":
-                NodeListA.node8(split1)
+                (NodeListVar).node8(split1)
                 
             if passhash[passlen] == "9":
-                NodeListA.node9(split1)
+                (NodeListVar).node9(split1)
                 
             if passhash[passlen] == "0":
-                NodeListA.node0(split1)
+                (NodeListVar).node0(split1)
             counter=counter+1 
                
 

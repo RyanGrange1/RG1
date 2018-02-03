@@ -1,6 +1,6 @@
 #RG1 document encryption system
 #Credait to Ryan Grange and Zac Perkines-Jonnes
-#Version 0.02
+#Version 0.03
 
 #Import Modules
 import tkinter as tk

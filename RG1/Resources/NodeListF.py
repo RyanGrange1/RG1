@@ -302,7 +302,7 @@ def node0(split1):
     if encryptinput == "j":
         output = "a"
 
-    filey = open("Resources/tempfile.txt","a")
+    filey = open("Resources/tempfile.rg1","a")
     filey.write(str(output))
     filey.close()
 
@@ -611,7 +611,7 @@ def node1(split1):
     if encryptinput == "l":
         output = "a"
 
-    filey = open("Resources/tempfile.txt","a")
+    filey = open("Resources/tempfile.rg1","a")
     filey.write(str(output))
     filey.close()
 
@@ -920,7 +920,7 @@ def node2(split1):
     if encryptinput == "m":
         output = "a"
 
-    filey = open("Resources/tempfile.txt","a")
+    filey = open("Resources/tempfile.rg1","a")
     filey.write(str(output))
     filey.close()
 
@@ -1229,7 +1229,7 @@ def node3(split1):
     if encryptinput == "n":
         output = "a"
 
-    filey = open("Resources/tempfile.txt","a")
+    filey = open("Resources/tempfile.rg1","a")
     filey.write(str(output))
     filey.close()
 
@@ -1538,7 +1538,7 @@ def node4(split1):
     if encryptinput == "o":
         output = "a"
 
-    filey = open("Resources/tempfile.txt","a")
+    filey = open("Resources/tempfile.rg1","a")
     filey.write(str(output))
     filey.close()
 
@@ -1847,7 +1847,7 @@ def node5(split1):
     if encryptinput == "p":
         output = "a"
 
-    filey = open("Resources/tempfile.txt","a")
+    filey = open("Resources/tempfile.rg1","a")
     filey.write(str(output))
     filey.close()
 
@@ -2156,7 +2156,7 @@ def node6(split1):
     if encryptinput == "q":
         output = "a"
 
-    filey = open("Resources/tempfile.txt","a")
+    filey = open("Resources/tempfile.rg1","a")
     filey.write(str(output))
     filey.close()
 
@@ -2465,7 +2465,7 @@ def node7(split1):
     if encryptinput == "r":
         output = "a"
 
-    filey = open("Resources/tempfile.txt","a")
+    filey = open("Resources/tempfile.rg1","a")
     filey.write(str(output))
     filey.close()
 
@@ -2774,7 +2774,7 @@ def node8(split1):
     if encryptinput == "s":
         output = "a"
 
-    filey = open("Resources/tempfile.txt","a")
+    filey = open("Resources/tempfile.rg1","a")
     filey.write(str(output))
     filey.close()
 
@@ -3083,7 +3083,7 @@ def node9(split1):
     if encryptinput == "t":
         output = "a"
 
-    filey = open("Resources/tempfile.txt","a")
+    filey = open("Resources/tempfile.rg1","a")
     filey.write(str(output))
     filey.close()
 
@@ -3392,7 +3392,7 @@ def nodea(split1):
     if encryptinput == "u":
         output = "a"
 
-    filey = open("Resources/tempfile.txt","a")
+    filey = open("Resources/tempfile.rg1","a")
     filey.write(str(output))
     filey.close()
 
@@ -3701,7 +3701,7 @@ def nodeb(split1):
     if encryptinput == "v":
         output = "a"
 
-    filey = open("Resources/tempfile.txt","a")
+    filey = open("Resources/tempfile.rg1","a")
     filey.write(str(output))
     filey.close()
 
@@ -4010,7 +4010,7 @@ def nodec(split1):
     if encryptinput == "w":
         output = "a"
 
-    filey = open("Resources/tempfile.txt","a")
+    filey = open("Resources/tempfile.rg1","a")
     filey.write(str(output))
     filey.close()
 
@@ -4319,7 +4319,7 @@ def noded(split1):
     if encryptinput == "x":
         output = "a"
 
-    filey = open("Resources/tempfile.txt","a")
+    filey = open("Resources/tempfile.rg1","a")
     filey.write(str(output))
     filey.close()
 
@@ -4628,7 +4628,7 @@ def nodee(split1):
     if encryptinput == "y":
         output = "a"
 
-    filey = open("Resources/tempfile.txt","a")
+    filey = open("Resources/tempfile.rg1","a")
     filey.write(str(output))
     filey.close()
 
@@ -4937,6 +4937,6 @@ def nodef(split1):
     if encryptinput == "z":
         output = "a"
 
-    filey = open("Resources/tempfile.txt","a")
+    filey = open("Resources/tempfile.rg1","a")
     filey.write(str(output))
     filey.close()

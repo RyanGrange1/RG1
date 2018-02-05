@@ -10,32 +10,43 @@ from tkinter import Image
 import hashlib
 from tkinter import filedialog
 #from Resources import NodeListA
-from Resources import NodeListA
+from Resources import NodeListA, NodeListB, NodeListC, NodeListD, NodeListE, NodeListF 
 
 
 #closes the window to allow the program to move on
 def close_window(root):
-                root.quit()
+    root.quit()
 
 #clears the input boxes
 def clear_text(root):
-                Password = Entry(root)
-                Password.insert(0, '',)
-                Password.config(show="*");
-                Password.grid(row=5,column=2)
+    Password = Entry(root)
+    Password.insert(0, '',)
+    Password.config(show="*");
+    Password.grid(row=5,column=2)
 
 #opens the import file dialog
 def open_file(root):
-                root.filename = filedialog.askopenfilename(filetypes=(("text files","*.txt"), ("all files","*")))
+    root.filename = filedialog.askopenfilename(filetypes=(("Un-Encrypted Text Files","*.txt"), ("Encrypted RG1 Files","*.rg1"), ("All Other Files","*")))
 
 #hashes the users passwors
 def hash_passwordmd5(password):
-                return hashlib.md5(password.encode()).hexdigest()
+    return hashlib.md5(password.encode()).hexdigest()
 
 def hash_passwordsha(password):
-                return hashlib.sha512(password.encode()).hexdigest()
+    return hashlib.sha512(password.encode()).hexdigest()
 
+#defining the rerun function
+def rerun(root):
+    run = 1
+    root.destroy()
+            
+#defining the quit function
+def quit_window(root):
+    run = 0
+    root.destroy()
 
+    
+#main program
 #loop to allow rerun without having to close and reopen
 run = 1
 while run == 1:
@@ -80,21 +91,29 @@ while run == 1:
             Label(root, text="                                  File Imported                                   ").grid(row=4, column=1)
             root.update()
             
-        if root.filename == "":
+        elif root.filename == "":
             Label(root, text="                              Please select a file.                                   ").grid(row=4, column=1) 
             root.update()
                 
-        if validateName != ".txt":
-            Label(root, text="                      Unsupported file type, select a .txt file                       ").grid(row=4, column=1)
+        if validateName != ".txt" or ".rg1" or ".py":
+            Label(root, text="                  Unsupported file type, select a .txt / .rg1 file                  ").grid(row=4, column=1)
             messagelength = 0
             root.filename=""
             root.update()             
 
         Button(root, text="Begin", command=lambda: close_window(root)).grid(row=7, column=1)
         Button(root, text="Clear Password", command=lambda: clear_text(root)).grid(row=7, column=2)
-        Button(root, text="Open File", command=lambda: open_file(root)).grid(row=4, column=2)      
+        Button(root, text="Open File", command=lambda: open_file(root)).grid(row=4, column=2)
                 
         root.mainloop()
+
+        #Working out if to encrypt/decrypt based on file extension type
+
+        if validateName == ".rg1":
+            decrypt = True
+
+        else:
+            decrypt = False
             
         #creates the password hash to encrypt from
         userpass=str(Password.get())
@@ -129,7 +148,7 @@ while run == 1:
                 
 
             userimportfile=str(userimportfile)
-            print(userimportfile)
+            print("Message  = " ,userimportfile)
 
             output = "1"
             #This chooses the message letter's placement from 0 up
@@ -143,12 +162,12 @@ while run == 1:
         if messagelength != 0:
             Continue=1
 
-        NodeListVar = "Resources/NodeListA.py"
+        NodeListVar = NodeListA
                 
         while messagelength > 0:
             SHApasslen = 128
             MD5passlen = 32
-            print(MD5passlen)
+            
             SHApasslen = SHApasslen - 1
             MD5passlen = MD5passlen - 1
 
@@ -156,10 +175,6 @@ while run == 1:
             counter=0
             while SHApasslen and messagelength > -1 and letter < messagetotal:
                 split1=userimportfile[letter]
-
-                print("Current SHA Hash Letter (determines node to be used in the nodelist) = " ,SHApasshash[SHApasslen])
-                print("Current MD5 Hash Letter (determines which nodelist to use)           = " ,MD5passhash[MD5passlen])
-                print("Current Letter Of The Message (as given by the users impoterd file)  = " ,split1)
 
                 if SHApasshash[SHApasslen] == "a":
                     (NodeListVar).nodea(split1)
@@ -224,34 +239,38 @@ while run == 1:
 
         root.destroy()
 
-        #defining the rerun function
-        def rerun(root):
-            run = 1
-            root.destroy()
-            
-        #defining the quit function
-        def quit_window(root):
-            run = 0
-            root.destroy()
+
 
         #defining the save function for the final product
         def save_output(root):
             
-            root.filename=filedialog.asksaveasfilename(filetypes=(("text files","*.txt"), ("all files","*")))
+            root.filename=filedialog.asksaveasfilename(filetypes=(("Default Output","*.txt/.rg1"), ("all files","*")))
             if ".txt" in root.filename:
                 root.filename=root.filename.replace(".txt","")
+            if ".rg1" in root.filename:
+                root.filename=root.filename.replace(".rg1","")
                 
             
             outputfile = open("Resources/tempfile.rg1","r")
             tempmove = str(outputfile.read())
             outputfile.close()
 
-            usersavefile = open(root.filename+".txt","w")
+            if decrypt == True:
+                usersavefile = open(root.filename+".txt","w")
+
+            elif decrypt == False: 
+                usersavefile = open(root.filename+".rg1","w")
+
             usersavefile.write(tempmove)
             usersavefile.close()
             
+            tempfile = open("Resources/tempfile.rg1","w")
+            tempfile.write("")
+            tempfile.close()
+            
             Label(root, text="Save Successful").grid(row=2, columnspan=4)
             root.update()
+
             
         #Opening a save dialog for the user to save their text after the code has run
 
@@ -267,11 +286,9 @@ while run == 1:
         Button(root, text="Re Run", command=lambda: rerun(root)).grid(row=3, column=3)
 
         root.mainloop()
-        tempfile = open("Resources/tempfile.txt","w")
-        tempfile.write("")
-        tempfile.close()
+        
     
-
+        
 
 
 
